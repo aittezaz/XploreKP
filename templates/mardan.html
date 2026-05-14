@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mardan - XploreKP</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+            background:
+                linear-gradient(rgba(5, 14, 21, 0.66), rgba(5, 14, 21, 0.82)),
+                url("/static/images/bg.jpg") no-repeat center center/cover;
+        }
+
+        .page {
+            width: min(1120px, 92%);
+            margin: 0 auto;
+            padding: 54px 0;
+        }
+
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 18px;
+            margin-bottom: 42px;
+        }
+
+        .brand {
+            color: white;
+            font-size: 1.05rem;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .nav-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        .back-link,
+        .add-link {
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.32);
+            border-radius: 8px;
+            padding: 10px 16px;
+            text-decoration: none;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .add-link {
+            background: #1f8a70;
+            border-color: transparent;
+            font-weight: 800;
+        }
+
+        .back-link:hover,
+        .add-link:hover {
+            background: rgba(255, 255, 255, 0.14);
+            transform: translateY(-2px);
+        }
+
+        .add-link:hover {
+            background: #176f5a;
+        }
+
+        .intro {
+            max-width: 760px;
+            margin-bottom: 34px;
+        }
+
+        h1 {
+            font-size: clamp(2.2rem, 7vw, 5rem);
+            line-height: 1;
+            margin: 0 0 14px;
+        }
+
+        .intro p {
+            color: rgba(255, 255, 255, 0.82);
+            font-size: 1.08rem;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 16px;
+        }
+
+        .category-card {
+            min-height: 112px;
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+            gap: 14px;
+            color: white;
+            background: rgba(255, 255, 255, 0.14);
+            border: 1px solid rgba(255, 255, 255, 0.22);
+            border-radius: 8px;
+            box-shadow: 0 18px 42px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-decoration: none;
+            backdrop-filter: blur(12px);
+            transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+        }
+
+        .category-card:hover {
+            background: rgba(31, 138, 112, 0.82);
+            border-color: rgba(255, 255, 255, 0.44);
+            transform: translateY(-5px);
+        }
+
+        .category-name {
+            font-size: 1.18rem;
+            font-weight: 800;
+        }
+
+        .category-count {
+            display: block;
+            margin-top: 8px;
+            color: rgba(255, 255, 255, 0.76);
+            font-size: 0.92rem;
+            font-weight: 700;
+        }
+
+        .category-arrow {
+            width: 34px;
+            height: 34px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex: 0 0 auto;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            font-size: 1.3rem;
+        }
+
+        @media (max-width: 640px) {
+            .topbar {
+                align-items: stretch;
+                flex-direction: column;
+            }
+
+            .nav-actions {
+                justify-content: stretch;
+            }
+
+            .back-link,
+            .add-link {
+                flex: 1;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <nav class="topbar">
+            <a class="brand" href="/">XploreKP</a>
+            <div class="nav-actions">
+                <a class="add-link" href="/mardan/add">Add Place</a>
+                <a class="back-link" href="/">Back to Search</a>
+            </div>
+        </nav>
+
+        <section class="intro">
+            <h1>Mardan</h1>
+            <p>Choose what you want to explore, or add your own place with its map location.</p>
+        </section>
+
+        <section class="category-grid" aria-label="Mardan categories">
+            {% for category in categories %}
+                <a class="category-card" href="/mardan/{{ category.slug }}">
+                    <span>
+                        <span class="category-name">{{ category.name }}</span>
+                        <span class="category-count">{{ category.count }} places</span>
+                    </span>
+                    <span class="category-arrow" aria-hidden="true">&gt;</span>
+                </a>
+            {% endfor %}
+        </section>
+    </main>
+</body>
+</html>

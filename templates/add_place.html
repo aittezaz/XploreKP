@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Place - Mardan</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+            background:
+                linear-gradient(rgba(5, 14, 21, 0.66), rgba(5, 14, 21, 0.84)),
+                url("/static/images/bg.jpg") no-repeat center center/cover;
+        }
+
+        .page {
+            width: min(1120px, 92%);
+            margin: 0 auto;
+            padding: 46px 0;
+        }
+
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 28px;
+        }
+
+        .brand,
+        .back-link {
+            color: white;
+            text-decoration: none;
+        }
+
+        .brand {
+            font-weight: 800;
+            font-size: 1.05rem;
+        }
+
+        .back-link {
+            border: 1px solid rgba(255, 255, 255, 0.32);
+            border-radius: 8px;
+            padding: 10px 16px;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(255, 255, 255, 0.14);
+            transform: translateY(-2px);
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: minmax(280px, 0.85fr) minmax(320px, 1.15fr);
+            gap: 20px;
+            align-items: start;
+        }
+
+        .panel {
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.14);
+            border: 1px solid rgba(255, 255, 255, 0.24);
+            box-shadow: 0 24px 70px rgba(0, 0, 0, 0.22);
+            backdrop-filter: blur(12px);
+            padding: 28px;
+        }
+
+        h1 {
+            font-size: clamp(2.1rem, 6vw, 4rem);
+            line-height: 1;
+            margin: 0 0 12px;
+        }
+
+        p {
+            color: rgba(255, 255, 255, 0.82);
+            line-height: 1.6;
+            margin: 0 0 22px;
+        }
+
+        .alert {
+            margin-bottom: 18px;
+            padding: 12px 14px;
+            border-radius: 8px;
+            color: white;
+            background: rgba(176, 55, 55, 0.72);
+            border: 1px solid rgba(255, 255, 255, 0.24);
+            line-height: 1.5;
+        }
+
+        label {
+            display: block;
+            font-weight: 800;
+            margin: 16px 0 7px;
+        }
+
+        input,
+        select {
+            width: 100%;
+            min-height: 46px;
+            border: 0;
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 1rem;
+        }
+
+        .coordinates {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .form-actions {
+            display: grid;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        button,
+        .map-button {
+            width: 100%;
+            min-height: 48px;
+            border: 0;
+            border-radius: 8px;
+            color: white;
+            background: #1f8a70;
+            font-weight: 800;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+
+        button:hover,
+        .map-button:hover {
+            background: #176f5a;
+            transform: translateY(-2px);
+        }
+
+        .secondary {
+            background: rgba(255, 255, 255, 0.14);
+            border: 1px solid rgba(255, 255, 255, 0.22);
+        }
+
+        .secondary:hover {
+            background: rgba(255, 255, 255, 0.22);
+        }
+
+        #map {
+            height: 520px;
+            min-height: 360px;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.24);
+            background: rgba(255, 255, 255, 0.16);
+        }
+
+        .map-note {
+            margin-top: 12px;
+            color: rgba(255, 255, 255, 0.78);
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 820px) {
+            .layout,
+            .coordinates {
+                grid-template-columns: 1fr;
+            }
+
+            .topbar {
+                align-items: stretch;
+                flex-direction: column;
+            }
+
+            .back-link {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <nav class="topbar">
+            <a class="brand" href="/">XploreKP</a>
+            <a class="back-link" href="/mardan">Back to Categories</a>
+        </nav>
+
+        <section class="layout">
+            <form class="panel" method="POST" action="/mardan/add">
+                <h1>Add Place</h1>
+                <p>Choose a category, add the place details, then click the map or use your current location to fill coordinates.</p>
+
+                {% if error %}
+                    <div class="alert">{{ error }}</div>
+                {% endif %}
+
+                <label for="category">Category</label>
+                <select id="category" name="category" required>
+                    {% for category in categories %}
+                        <option value="{{ category.slug }}" {% if category.slug == selected_category %}selected{% endif %}>{{ category.name }}</option>
+                    {% endfor %}
+                </select>
+
+                <label for="name">Place Name</label>
+                <input id="name" name="name" type="text" placeholder="Example: Ali Medical Store" required>
+
+                <label for="address">Address</label>
+                <input id="address" name="address" type="text" placeholder="Example: Bank Road, Mardan" required>
+
+                <div class="coordinates">
+                    <div>
+                        <label for="lat">Latitude</label>
+                        <input id="lat" name="lat" type="number" step="any" placeholder="34.1984" required>
+                    </div>
+                    <div>
+                        <label for="lng">Longitude</label>
+                        <input id="lng" name="lng" type="number" step="any" placeholder="72.0458" required>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="secondary" id="currentLocationButton">Use My Current Location</button>
+                    <button type="submit">Save Place</button>
+                </div>
+            </form>
+
+            <section class="panel">
+                <div id="map"></div>
+                <p class="map-note" id="mapNote">Click anywhere on the map to mark the place. If the map does not load, type latitude and longitude manually.</p>
+            </section>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        const latInput = document.querySelector("#lat");
+        const lngInput = document.querySelector("#lng");
+        const mapNote = document.querySelector("#mapNote");
+        const currentLocationButton = document.querySelector("#currentLocationButton");
+        const mardanCenter = [34.1986, 72.0404];
+        let marker;
+        let map;
+
+        function setCoordinates(lat, lng, message) {
+            latInput.value = Number(lat).toFixed(6);
+            lngInput.value = Number(lng).toFixed(6);
+
+            if (map && marker) {
+                marker.setLatLng([lat, lng]);
+                map.panTo([lat, lng]);
+            } else if (map) {
+                marker = L.marker([lat, lng]).addTo(map);
+                map.panTo([lat, lng]);
+            }
+
+            mapNote.textContent = message;
+        }
+
+        if (window.L) {
+            map = L.map("map").setView(mardanCenter, 13);
+
+            L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+                maxZoom: 19,
+                attribution: "&copy; OpenStreetMap contributors"
+            }).addTo(map);
+
+            marker = L.marker(mardanCenter).addTo(map);
+            setCoordinates(mardanCenter[0], mardanCenter[1], "Default marker is in Mardan. Click the exact place on the map.");
+
+            map.on("click", (event) => {
+                setCoordinates(event.latlng.lat, event.latlng.lng, "Location selected from map. Now save the place.");
+            });
+        } else {
+            mapNote.textContent = "Map could not load. You can still type latitude and longitude manually.";
+        }
+
+        currentLocationButton.addEventListener("click", () => {
+            if (!navigator.geolocation) {
+                mapNote.textContent = "Your browser does not support location access.";
+                return;
+            }
+
+            mapNote.textContent = "Asking your browser for your current location...";
+
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    setCoordinates(
+                        position.coords.latitude,
+                        position.coords.longitude,
+                        "Your current location is selected. Save it only if this is the place location."
+                    );
+                },
+                () => {
+                    mapNote.textContent = "Could not get your location. You can click the map or type coordinates manually.";
+                },
+                {
+                    enableHighAccuracy: true,
+                    timeout: 10000,
+                    maximumAge: 60000
+                }
+            );
+        });
+    </script>
+</body>
+</html>

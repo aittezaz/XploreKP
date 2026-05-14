@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ category }} - Mardan</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+            background:
+                linear-gradient(rgba(5, 14, 21, 0.66), rgba(5, 14, 21, 0.84)),
+                url("/static/images/bg.jpg") no-repeat center center/cover;
+        }
+
+        .page {
+            width: min(1120px, 92%);
+            margin: 0 auto;
+            padding: 46px 0;
+        }
+
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 34px;
+        }
+
+        .brand,
+        .back-link,
+        .add-link {
+            color: white;
+            text-decoration: none;
+        }
+
+        .brand {
+            font-weight: 800;
+            font-size: 1.05rem;
+        }
+
+        .nav-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        .back-link,
+        .add-link {
+            border: 1px solid rgba(255, 255, 255, 0.32);
+            border-radius: 8px;
+            padding: 10px 16px;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .add-link {
+            background: #1f8a70;
+            border-color: transparent;
+            font-weight: 800;
+        }
+
+        .back-link:hover,
+        .add-link:hover {
+            background: rgba(255, 255, 255, 0.14);
+            transform: translateY(-2px);
+        }
+
+        .add-link:hover {
+            background: #176f5a;
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.7fr);
+            gap: 22px;
+            align-items: stretch;
+            margin-bottom: 20px;
+        }
+
+        .intro,
+        .location-card,
+        .place-card {
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.14);
+            border: 1px solid rgba(255, 255, 255, 0.24);
+            box-shadow: 0 24px 70px rgba(0, 0, 0, 0.22);
+            backdrop-filter: blur(12px);
+        }
+
+        .intro {
+            padding: 30px;
+        }
+
+        .label {
+            color: #8ce3c7;
+            font-weight: 800;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: clamp(2.1rem, 6vw, 4.6rem);
+            line-height: 1;
+            margin: 0 0 14px;
+        }
+
+        p {
+            color: rgba(255, 255, 255, 0.84);
+            line-height: 1.65;
+            margin: 0;
+        }
+
+        .location-card {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 18px;
+        }
+
+        .location-status {
+            color: rgba(255, 255, 255, 0.82);
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        button {
+            width: 100%;
+            min-height: 48px;
+            border: 0;
+            border-radius: 8px;
+            color: white;
+            background: #1f8a70;
+            font-weight: 800;
+            cursor: pointer;
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+
+        button:hover {
+            background: #176f5a;
+            transform: translateY(-2px);
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            gap: 16px;
+            margin: 28px 0 14px;
+        }
+
+        .results-header h2 {
+            margin: 0;
+            font-size: 1.6rem;
+        }
+
+        .results-header span {
+            color: rgba(255, 255, 255, 0.72);
+        }
+
+        .places {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+        }
+
+        .place-card {
+            min-height: 205px;
+            padding: 22px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 18px;
+        }
+
+        .place-card h3 {
+            margin: 0 0 8px;
+            font-size: 1.25rem;
+        }
+
+        .place-card address {
+            color: rgba(255, 255, 255, 0.76);
+            font-style: normal;
+            line-height: 1.5;
+        }
+
+        .place-meta {
+            display: grid;
+            gap: 6px;
+            margin-top: 12px;
+            color: rgba(255, 255, 255, 0.78);
+            font-size: 0.92rem;
+            line-height: 1.45;
+        }
+
+        .place-meta a {
+            color: #aef1db;
+            text-decoration: none;
+        }
+
+        .place-meta a:hover {
+            text-decoration: underline;
+        }
+
+        .distance {
+            display: inline-flex;
+            align-items: center;
+            width: fit-content;
+            min-height: 34px;
+            padding: 7px 11px;
+            border-radius: 8px;
+            background: rgba(140, 227, 199, 0.16);
+            color: #aef1db;
+            font-weight: 800;
+        }
+
+        .directions {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 8px;
+            padding: 11px 14px;
+            background: rgba(255, 255, 255, 0.14);
+            border: 1px solid rgba(255, 255, 255, 0.22);
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .directions:hover {
+            background: rgba(255, 255, 255, 0.22);
+            transform: translateY(-2px);
+        }
+
+        .empty {
+            padding: 30px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.14);
+            border: 1px solid rgba(255, 255, 255, 0.24);
+        }
+
+        @media (max-width: 760px) {
+            .hero {
+                grid-template-columns: 1fr;
+            }
+
+            .topbar,
+            .results-header {
+                align-items: stretch;
+                flex-direction: column;
+            }
+
+            .back-link {
+                text-align: center;
+            }
+
+            .nav-actions {
+                justify-content: stretch;
+            }
+
+            .back-link,
+            .add-link {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <nav class="topbar">
+            <a class="brand" href="/">XploreKP</a>
+            <div class="nav-actions">
+                <a class="add-link" href="/mardan/add?category={{ category_slug }}">Add {{ category }}</a>
+                <a class="back-link" href="/mardan">All Categories</a>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <div class="intro">
+                <div class="label">Mardan</div>
+                <h1>{{ category }}</h1>
+                <p>Allow location access to see which {{ category|lower }} are nearest to you. You can also add your own places and mark them on the map.</p>
+            </div>
+
+            <aside class="location-card">
+                <div>
+                    <h2>Nearest First</h2>
+                    <p class="location-status" id="locationStatus">Distances will appear after you share your location.</p>
+                </div>
+                <button type="button" id="locationButton">Use My Location</button>
+            </aside>
+        </section>
+
+        <section class="results-header">
+            <div>
+                <h2>Available Places</h2>
+                <span id="sortLabel">Showing {{ place_count }} saved places</span>
+            </div>
+        </section>
+
+        {% if places %}
+            <section class="places" id="placesList">
+                {% for place in places %}
+                    <article class="place-card" data-lat="{{ place.lat }}" data-lng="{{ place.lng }}">
+                        <div>
+                            <h3>{{ place.name }}</h3>
+                            <address>{{ place.address }}</address>
+                            <div class="place-meta">
+                                {% if place.phone %}
+                                    <span>Phone: {{ place.phone }}</span>
+                                {% endif %}
+                                {% if place.website %}
+                                    <span><a href="{{ place.website }}" target="_blank" rel="noopener">Website</a></span>
+                                {% endif %}
+                                {% if place.opening_hours %}
+                                    <span>Hours: {{ place.opening_hours }}</span>
+                                {% endif %}
+                                {% if place.source %}
+                                    <span>
+                                        Source: {{ place.source }}
+                                        {% if place.osm_url %}
+                                            · <a href="{{ place.osm_url }}" target="_blank" rel="noopener">View map record</a>
+                                        {% endif %}
+                                    </span>
+                                {% endif %}
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="distance">Distance unknown</span>
+                        </div>
+
+                        <a class="directions" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination={{ place.lat }},{{ place.lng }}">
+                            Get Directions
+                        </a>
+                    </article>
+                {% endfor %}
+            </section>
+        {% else %}
+            <section class="empty">
+                <p>We are adding {{ category|lower }} in Mardan. This section will show useful places, contact details, and locations soon.</p>
+            </section>
+        {% endif %}
+    </main>
+
+    <script>
+        const locationButton = document.querySelector("#locationButton");
+        const locationStatus = document.querySelector("#locationStatus");
+        const sortLabel = document.querySelector("#sortLabel");
+        const placesList = document.querySelector("#placesList");
+
+        function toRadians(value) {
+            return value * Math.PI / 180;
+        }
+
+        function distanceInKm(startLat, startLng, endLat, endLng) {
+            const earthRadiusKm = 6371;
+            const latDifference = toRadians(endLat - startLat);
+            const lngDifference = toRadians(endLng - startLng);
+
+            const haversine =
+                Math.sin(latDifference / 2) * Math.sin(latDifference / 2) +
+                Math.cos(toRadians(startLat)) *
+                Math.cos(toRadians(endLat)) *
+                Math.sin(lngDifference / 2) *
+                Math.sin(lngDifference / 2);
+
+            return earthRadiusKm * 2 * Math.atan2(Math.sqrt(haversine), Math.sqrt(1 - haversine));
+        }
+
+        function formatDistance(distance) {
+            if (distance < 1) {
+                return `${Math.round(distance * 1000)} m away`;
+            }
+
+            return `${distance.toFixed(1)} km away`;
+        }
+
+        function updatePlaces(position) {
+            const userLat = position.coords.latitude;
+            const userLng = position.coords.longitude;
+            const placeCards = Array.from(document.querySelectorAll(".place-card"));
+
+            const sortedCards = placeCards
+                .map((card) => {
+                    const placeLat = Number(card.dataset.lat);
+                    const placeLng = Number(card.dataset.lng);
+                    const distance = distanceInKm(userLat, userLng, placeLat, placeLng);
+
+                    card.querySelector(".distance").textContent = formatDistance(distance);
+                    return { card, distance };
+                })
+                .sort((first, second) => first.distance - second.distance);
+
+            sortedCards.forEach(({ card }) => placesList.appendChild(card));
+            locationStatus.textContent = "Location found. Places are now sorted by nearest distance.";
+            sortLabel.textContent = "Sorted nearest to farthest";
+            locationButton.textContent = "Refresh My Location";
+        }
+
+        function showLocationError(error) {
+            if (error.code === error.PERMISSION_DENIED) {
+                locationStatus.textContent = "Location permission was blocked. Allow it in your browser to calculate distances.";
+                return;
+            }
+
+            locationStatus.textContent = "Could not get your location right now. Please try again.";
+        }
+
+        function requestLocation() {
+            if (!navigator.geolocation) {
+                locationStatus.textContent = "Your browser does not support location access.";
+                return;
+            }
+
+            locationStatus.textContent = "Asking your browser for location access...";
+            navigator.geolocation.getCurrentPosition(updatePlaces, showLocationError, {
+                enableHighAccuracy: true,
+                timeout: 10000,
+                maximumAge: 60000
+            });
+        }
+
+        if (locationButton) {
+            locationButton.addEventListener("click", requestLocation);
+        }
+    </script>
+</body>
+</html>
