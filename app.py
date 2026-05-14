@@ -15,7 +15,7 @@ MARDAN_CATEGORIES = [
     {"name": "Pharmacies", "slug": "pharmacies"},
     {"name": "Wedding Halls", "slug": "wedding-halls"},
     {"name": "Hotels", "slug": "hotels"},
-    {"name": "Tourist Spots", "slug": "tourist-spots"},
+    {"name": "Tourist Spots", "slug": "tourist-spotss"},
     {"name": "Workshops", "slug": "workshops"},
     {"name": "Banks and ATMs", "slug": "banks-and-atms"},
 ]
