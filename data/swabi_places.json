@@ -1,0 +1,232 @@
+{
+    "restaurants": [
+        {
+            "name": "Swabi Food Point",
+            "address": "Main Bazaar, Swabi",
+            "lat": 34.1219,
+            "lng": 72.4709,
+            "source": "Starter data"
+        },
+        {
+            "name": "Topi Taste House",
+            "address": "Topi Road, Swabi",
+            "lat": 34.0706,
+            "lng": 72.6218,
+            "source": "Starter data"
+        },
+        {
+            "name": "City Grill Swabi",
+            "address": "Jehangira Road, Swabi",
+            "lat": 34.1278,
+            "lng": 72.4635,
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Swabi Medical Center",
+            "address": "Mardan Road, Swabi",
+            "lat": 34.1234,
+            "lng": 72.4736,
+            "source": "Starter data"
+        },
+        {
+            "name": "City Care Clinic",
+            "address": "Main Bazaar, Swabi",
+            "lat": 34.1198,
+            "lng": 72.4681,
+            "source": "Starter data"
+        },
+        {
+            "name": "Topi Health Clinic",
+            "address": "Topi, Swabi",
+            "lat": 34.0716,
+            "lng": 72.6228,
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Swabi Fuel Station",
+            "address": "Mardan Road, Swabi",
+            "lat": 34.1301,
+            "lng": 72.4592,
+            "source": "Starter data"
+        },
+        {
+            "name": "City Petrol Pump",
+            "address": "Jehangira Road, Swabi",
+            "lat": 34.1172,
+            "lng": 72.4766,
+            "source": "Starter data"
+        },
+        {
+            "name": "Green Fuel Swabi",
+            "address": "Topi Road, Swabi",
+            "lat": 34.1055,
+            "lng": 72.5124,
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Swabi Shopping Plaza",
+            "address": "Main Bazaar, Swabi",
+            "lat": 34.1211,
+            "lng": 72.4701,
+            "source": "Starter data"
+        },
+        {
+            "name": "Family Shopping Center",
+            "address": "Mardan Road, Swabi",
+            "lat": 34.1263,
+            "lng": 72.4664,
+            "source": "Starter data"
+        },
+        {
+            "name": "Topi Market Center",
+            "address": "Topi, Swabi",
+            "lat": 34.0699,
+            "lng": 72.6234,
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy",
+            "address": "Main Bazaar, Swabi",
+            "lat": 34.1214,
+            "lng": 72.4714,
+            "source": "Starter data"
+        },
+        {
+            "name": "Shaheen Medical Store",
+            "address": "Mardan Road, Swabi",
+            "lat": 34.1252,
+            "lng": 72.4677,
+            "source": "Starter data"
+        },
+        {
+            "name": "Health Plus Pharmacy",
+            "address": "Topi Road, Swabi",
+            "lat": 34.1089,
+            "lng": 72.5056,
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Wedding Hall",
+            "address": "Jehangira Road, Swabi",
+            "lat": 34.1168,
+            "lng": 72.4781,
+            "source": "Starter data"
+        },
+        {
+            "name": "Pearl Marquee",
+            "address": "Mardan Road, Swabi",
+            "lat": 34.1321,
+            "lng": 72.4551,
+            "source": "Starter data"
+        },
+        {
+            "name": "Swabi Event Complex",
+            "address": "Topi Road, Swabi",
+            "lat": 34.1016,
+            "lng": 72.5208,
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Swabi City Hotel",
+            "address": "Main Bazaar, Swabi",
+            "lat": 34.1205,
+            "lng": 72.4696,
+            "source": "Starter data"
+        },
+        {
+            "name": "Green Palace Hotel",
+            "address": "Mardan Road, Swabi",
+            "lat": 34.1281,
+            "lng": 72.4623,
+            "source": "Starter data"
+        },
+        {
+            "name": "Comfort Inn Swabi",
+            "address": "Jehangira Road, Swabi",
+            "lat": 34.1149,
+            "lng": 72.4804,
+            "source": "Starter data"
+        }
+    ],
+    "tourist-spots": [
+        {
+            "name": "Swabi View Point",
+            "address": "Swabi",
+            "lat": 34.1328,
+            "lng": 72.4851,
+            "source": "Starter data"
+        },
+        {
+            "name": "Topi Riverside Area",
+            "address": "Topi, Swabi",
+            "lat": 34.0692,
+            "lng": 72.6298,
+            "source": "Starter data"
+        },
+        {
+            "name": "Gadoon Route View",
+            "address": "Gadoon Road, Swabi",
+            "lat": 34.2039,
+            "lng": 72.6402,
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop",
+            "address": "Mardan Road, Swabi",
+            "lat": 34.1273,
+            "lng": 72.4648,
+            "source": "Starter data"
+        },
+        {
+            "name": "Swabi Motors Workshop",
+            "address": "Jehangira Road, Swabi",
+            "lat": 34.1162,
+            "lng": 72.4772,
+            "source": "Starter data"
+        },
+        {
+            "name": "Quick Fix Garage",
+            "address": "Topi Road, Swabi",
+            "lat": 34.1104,
+            "lng": 72.5015,
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "City Bank ATM",
+            "address": "Main Bazaar, Swabi",
+            "lat": 34.1218,
+            "lng": 72.4703,
+            "source": "Starter data"
+        },
+        {
+            "name": "Swabi Cash Point",
+            "address": "Mardan Road, Swabi",
+            "lat": 34.1266,
+            "lng": 72.4661,
+            "source": "Starter data"
+        },
+        {
+            "name": "Family ATM Center",
+            "address": "Topi Road, Swabi",
+            "lat": 34.1094,
+            "lng": 72.5082,
+            "source": "Starter data"
+        }
+    ]
+}

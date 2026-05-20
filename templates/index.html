@@ -11,12 +11,14 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
+            background: #08141e;
         }
 
         .hero {
             min-height: 100vh;
             background:
-                linear-gradient(rgba(8, 20, 30, 0.58), rgba(8, 20, 30, 0.72)),
+                radial-gradient(circle at 20% 15%, rgba(35, 161, 127, 0.38), transparent 30%),
+                linear-gradient(rgba(8, 20, 30, 0.56), rgba(8, 20, 30, 0.74)),
                 url("/static/images/bg.jpg") no-repeat center center/cover;
             display: flex;
             align-items: center;
@@ -34,6 +36,20 @@
             padding: 36px;
             text-align: center;
             backdrop-filter: blur(10px);
+        }
+
+        .badge-line {
+            display: inline-flex;
+            align-items: center;
+            min-height: 32px;
+            margin-bottom: 14px;
+            padding: 7px 12px;
+            border-radius: 999px;
+            background: rgba(31, 138, 112, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.22);
+            color: #bff6e6;
+            font-weight: 800;
+            font-size: 0.9rem;
         }
 
         h1 {
@@ -72,11 +88,12 @@
 <body>
     <main class="hero">
         <section class="search-panel">
+            <div class="badge-line">Khyber Pakhtunkhwa local guide</div>
             <h1>Explore KP</h1>
-            <p>Search any city in KPK and discover useful places nearby.</p>
+            <p>Search a city and discover useful places nearby.</p>
 
             <form action="/search">
-                <input type="text" name="city" class="form-control" placeholder="Enter city, e.g. Mardan">
+                <input type="text" name="city" class="form-control" placeholder="Enter city name">
                 <button class="btn btn-success search-button mt-3 w-100">Search</button>
             </form>
         </section>

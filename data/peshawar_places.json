@@ -1,0 +1,232 @@
+{
+    "restaurants": [
+        {
+            "name": "Namak Mandi Food Street",
+            "address": "Namak Mandi, Peshawar",
+            "lat": 34.0119,
+            "lng": 71.5732,
+            "source": "Starter data"
+        },
+        {
+            "name": "University Road Restaurant",
+            "address": "University Road, Peshawar",
+            "lat": 33.9988,
+            "lng": 71.4896,
+            "source": "Starter data"
+        },
+        {
+            "name": "Hayatabad Food Point",
+            "address": "Hayatabad, Peshawar",
+            "lat": 33.9866,
+            "lng": 71.4341,
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Lady Reading Hospital",
+            "address": "Hospital Road, Peshawar",
+            "lat": 34.0142,
+            "lng": 71.5772,
+            "source": "Starter data"
+        },
+        {
+            "name": "Khyber Teaching Hospital",
+            "address": "University Road, Peshawar",
+            "lat": 33.9998,
+            "lng": 71.4839,
+            "source": "Starter data"
+        },
+        {
+            "name": "Hayatabad Medical Complex",
+            "address": "Hayatabad, Peshawar",
+            "lat": 33.9891,
+            "lng": 71.4347,
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "University Road Fuel Station",
+            "address": "University Road, Peshawar",
+            "lat": 34.0006,
+            "lng": 71.4936,
+            "source": "Starter data"
+        },
+        {
+            "name": "Saddar Petrol Pump",
+            "address": "Saddar Road, Peshawar",
+            "lat": 34.0008,
+            "lng": 71.5465,
+            "source": "Starter data"
+        },
+        {
+            "name": "Ring Road Fuel Station",
+            "address": "Ring Road, Peshawar",
+            "lat": 34.0187,
+            "lng": 71.4835,
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Deans Trade Center",
+            "address": "Saddar, Peshawar",
+            "lat": 34.0048,
+            "lng": 71.5455,
+            "source": "Starter data"
+        },
+        {
+            "name": "Mall of Peshawar",
+            "address": "University Road, Peshawar",
+            "lat": 33.9993,
+            "lng": 71.4922,
+            "source": "Starter data"
+        },
+        {
+            "name": "Hayatabad Shopping Center",
+            "address": "Hayatabad, Peshawar",
+            "lat": 33.9898,
+            "lng": 71.4362,
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Khyber Pharmacy",
+            "address": "University Road, Peshawar",
+            "lat": 33.9991,
+            "lng": 71.4858,
+            "source": "Starter data"
+        },
+        {
+            "name": "City Medical Store",
+            "address": "Saddar, Peshawar",
+            "lat": 34.0032,
+            "lng": 71.5438,
+            "source": "Starter data"
+        },
+        {
+            "name": "Hayatabad Pharmacy",
+            "address": "Hayatabad, Peshawar",
+            "lat": 33.9878,
+            "lng": 71.4332,
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Peshawar",
+            "address": "Ring Road, Peshawar",
+            "lat": 34.0171,
+            "lng": 71.4817,
+            "source": "Starter data"
+        },
+        {
+            "name": "Pearl Wedding Hall",
+            "address": "University Road, Peshawar",
+            "lat": 34.0002,
+            "lng": 71.4978,
+            "source": "Starter data"
+        },
+        {
+            "name": "Hayatabad Event Complex",
+            "address": "Hayatabad, Peshawar",
+            "lat": 33.9859,
+            "lng": 71.4381,
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Pearl Continental Peshawar",
+            "address": "Khyber Road, Peshawar",
+            "lat": 34.0087,
+            "lng": 71.5484,
+            "source": "Starter data"
+        },
+        {
+            "name": "Saddar City Hotel",
+            "address": "Saddar, Peshawar",
+            "lat": 34.0039,
+            "lng": 71.5444,
+            "source": "Starter data"
+        },
+        {
+            "name": "Hayatabad Guest House",
+            "address": "Hayatabad, Peshawar",
+            "lat": 33.9888,
+            "lng": 71.4356,
+            "source": "Starter data"
+        }
+    ],
+    "tourist-spots": [
+        {
+            "name": "Peshawar Museum",
+            "address": "Museum Road, Peshawar",
+            "lat": 34.0089,
+            "lng": 71.5586,
+            "source": "Starter data"
+        },
+        {
+            "name": "Qissa Khwani Bazaar",
+            "address": "Old City, Peshawar",
+            "lat": 34.0085,
+            "lng": 71.5734,
+            "source": "Starter data"
+        },
+        {
+            "name": "Sethi House",
+            "address": "Mohallah Sethian, Peshawar",
+            "lat": 34.0128,
+            "lng": 71.5758,
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop",
+            "address": "Ring Road, Peshawar",
+            "lat": 34.0164,
+            "lng": 71.4866,
+            "source": "Starter data"
+        },
+        {
+            "name": "Peshawar Motors Workshop",
+            "address": "GT Road, Peshawar",
+            "lat": 34.0102,
+            "lng": 71.5564,
+            "source": "Starter data"
+        },
+        {
+            "name": "Quick Fix Garage",
+            "address": "University Road, Peshawar",
+            "lat": 33.9984,
+            "lng": 71.5004,
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Saddar Bank ATM",
+            "address": "Saddar, Peshawar",
+            "lat": 34.0041,
+            "lng": 71.5451,
+            "source": "Starter data"
+        },
+        {
+            "name": "University Road Cash Point",
+            "address": "University Road, Peshawar",
+            "lat": 33.9994,
+            "lng": 71.4911,
+            "source": "Starter data"
+        },
+        {
+            "name": "Hayatabad ATM Center",
+            "address": "Hayatabad, Peshawar",
+            "lat": 33.9884,
+            "lng": 71.4372,
+            "source": "Starter data"
+        }
+    ]
+}

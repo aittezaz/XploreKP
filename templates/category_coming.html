@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ category }} - Mardan</title>
+    <title>{{ category }} - {{ city.name }}</title>
 
     <style>
         * {
             box-sizing: border-box;
+        }
+
+        :root {
+            --accent: #23a17f;
+            --accent-dark: #15745e;
         }
 
         body {
@@ -16,6 +21,7 @@
             font-family: Arial, sans-serif;
             color: white;
             background:
+                radial-gradient(circle at top right, rgba(35, 161, 127, 0.28), transparent 32%),
                 linear-gradient(rgba(5, 14, 21, 0.66), rgba(5, 14, 21, 0.84)),
                 url("/static/images/bg.jpg") no-repeat center center/cover;
         }
@@ -62,7 +68,7 @@
         }
 
         .add-link {
-            background: #1f8a70;
+            background: var(--accent);
             border-color: transparent;
             font-weight: 800;
         }
@@ -74,7 +80,7 @@
         }
 
         .add-link:hover {
-            background: #176f5a;
+            background: var(--accent-dark);
         }
 
         .hero {
@@ -138,14 +144,14 @@
             border: 0;
             border-radius: 8px;
             color: white;
-            background: #1f8a70;
+            background: var(--accent);
             font-weight: 800;
             cursor: pointer;
             transition: transform 0.2s ease, background 0.2s ease;
         }
 
         button:hover {
-            background: #176f5a;
+            background: var(--accent-dark);
             transform: translateY(-2px);
         }
 
@@ -276,14 +282,14 @@
         <nav class="topbar">
             <a class="brand" href="/">XploreKP</a>
             <div class="nav-actions">
-                <a class="add-link" href="/mardan/add?category={{ category_slug }}">Add {{ category }}</a>
-                <a class="back-link" href="/mardan">All Categories</a>
+                <a class="add-link" href="/{{ city_slug }}/add?category={{ category_slug }}">Add {{ category }}</a>
+                <a class="back-link" href="/{{ city_slug }}">All Categories</a>
             </div>
         </nav>
 
         <section class="hero">
             <div class="intro">
-                <div class="label">Mardan</div>
+                <div class="label">{{ city.name }}</div>
                 <h1>{{ category }}</h1>
                 <p>Allow location access to see which {{ category|lower }} are nearest to you. You can also add your own places and mark them on the map.</p>
             </div>
@@ -325,7 +331,7 @@
                                     <span>
                                         Source: {{ place.source }}
                                         {% if place.osm_url %}
-                                            · <a href="{{ place.osm_url }}" target="_blank" rel="noopener">View map record</a>
+                                            | <a href="{{ place.osm_url }}" target="_blank" rel="noopener">View map record</a>
                                         {% endif %}
                                     </span>
                                 {% endif %}
@@ -344,7 +350,7 @@
             </section>
         {% else %}
             <section class="empty">
-                <p>We are adding {{ category|lower }} in Mardan. This section will show useful places, contact details, and locations soon.</p>
+                <p>We are adding {{ category|lower }} in {{ city.name }}. This section will show useful places, contact details, and locations soon.</p>
             </section>
         {% endif %}
     </main>

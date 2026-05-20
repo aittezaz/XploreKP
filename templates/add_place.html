@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Place - Mardan</title>
+    <title>Add Place - {{ city.name }}</title>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 
@@ -12,12 +12,18 @@
             box-sizing: border-box;
         }
 
+        :root {
+            --accent: #23a17f;
+            --accent-dark: #15745e;
+        }
+
         body {
             margin: 0;
             min-height: 100vh;
             font-family: Arial, sans-serif;
             color: white;
             background:
+                radial-gradient(circle at top right, rgba(35, 161, 127, 0.28), transparent 32%),
                 linear-gradient(rgba(5, 14, 21, 0.66), rgba(5, 14, 21, 0.84)),
                 url("/static/images/bg.jpg") no-repeat center center/cover;
         }
@@ -132,7 +138,7 @@
             border: 0;
             border-radius: 8px;
             color: white;
-            background: #1f8a70;
+            background: var(--accent);
             font-weight: 800;
             cursor: pointer;
             text-align: center;
@@ -142,7 +148,7 @@
 
         button:hover,
         .map-button:hover {
-            background: #176f5a;
+            background: var(--accent-dark);
             transform: translateY(-2px);
         }
 
@@ -191,13 +197,13 @@
     <main class="page">
         <nav class="topbar">
             <a class="brand" href="/">XploreKP</a>
-            <a class="back-link" href="/mardan">Back to Categories</a>
+            <a class="back-link" href="/{{ city_slug }}">Back to Categories</a>
         </nav>
 
         <section class="layout">
-            <form class="panel" method="POST" action="/mardan/add">
+            <form class="panel" method="POST" action="/{{ city_slug }}/add">
                 <h1>Add Place</h1>
-                <p>Choose a category, add the place details, then click the map or use your current location to fill coordinates.</p>
+                <p>Add a useful {{ city.name }} location. Choose a category, enter the details, then click the map or use your current location to fill coordinates.</p>
 
                 {% if error %}
                     <div class="alert">{{ error }}</div>
@@ -211,19 +217,19 @@
                 </select>
 
                 <label for="name">Place Name</label>
-                <input id="name" name="name" type="text" placeholder="Example: Ali Medical Store" required>
+                <input id="name" name="name" type="text" placeholder="Place name" required>
 
                 <label for="address">Address</label>
-                <input id="address" name="address" type="text" placeholder="Example: Bank Road, Mardan" required>
+                <input id="address" name="address" type="text" placeholder="Address" required>
 
                 <div class="coordinates">
                     <div>
                         <label for="lat">Latitude</label>
-                        <input id="lat" name="lat" type="number" step="any" placeholder="34.1984" required>
+                        <input id="lat" name="lat" type="number" step="any" placeholder="Latitude" required>
                     </div>
                     <div>
                         <label for="lng">Longitude</label>
-                        <input id="lng" name="lng" type="number" step="any" placeholder="72.0458" required>
+                        <input id="lng" name="lng" type="number" step="any" placeholder="Longitude" required>
                     </div>
                 </div>
 
@@ -246,7 +252,8 @@
         const lngInput = document.querySelector("#lng");
         const mapNote = document.querySelector("#mapNote");
         const currentLocationButton = document.querySelector("#currentLocationButton");
-        const mardanCenter = [34.1986, 72.0404];
+        const cityCenter = [{{ city.center[0] }}, {{ city.center[1] }}];
+        const cityName = "{{ city.name }}";
         let marker;
         let map;
 
@@ -266,15 +273,15 @@
         }
 
         if (window.L) {
-            map = L.map("map").setView(mardanCenter, 13);
+            map = L.map("map").setView(cityCenter, 13);
 
             L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
                 maxZoom: 19,
                 attribution: "&copy; OpenStreetMap contributors"
             }).addTo(map);
 
-            marker = L.marker(mardanCenter).addTo(map);
-            setCoordinates(mardanCenter[0], mardanCenter[1], "Default marker is in Mardan. Click the exact place on the map.");
+            marker = L.marker(cityCenter).addTo(map);
+            setCoordinates(cityCenter[0], cityCenter[1], `Default marker is in ${cityName}. Click the exact place on the map.`);
 
             map.on("click", (event) => {
                 setCoordinates(event.latlng.lat, event.latlng.lng, "Location selected from map. Now save the place.");
