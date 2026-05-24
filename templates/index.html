@@ -102,7 +102,8 @@
         }
 
         .suggestion:hover,
-        .suggestion:focus {
+        .suggestion:focus,
+        .suggestion.active {
             background: rgba(31, 138, 112, 0.14);
             outline: 0;
         }
@@ -149,6 +150,7 @@
     <script>
         const cityInput = document.querySelector("#cityInput");
         const citySuggestions = document.querySelector("#citySuggestions");
+        let activeSuggestionIndex = -1;
         const cities = [
             {% for slug, city in cities.items() %}
                 { name: "{{ city.name }}", slug: "{{ slug }}" },
@@ -158,6 +160,38 @@
         function hideSuggestions() {
             citySuggestions.innerHTML = "";
             citySuggestions.style.display = "none";
+            activeSuggestionIndex = -1;
+        }
+
+        function suggestionButtons() {
+            return Array.from(citySuggestions.querySelectorAll(".suggestion"));
+        }
+
+        function setActiveSuggestion(index) {
+            const buttons = suggestionButtons();
+
+            if (!buttons.length) {
+                activeSuggestionIndex = -1;
+                return;
+            }
+
+            activeSuggestionIndex = (index + buttons.length) % buttons.length;
+            buttons.forEach((button, buttonIndex) => {
+                button.classList.toggle("active", buttonIndex === activeSuggestionIndex);
+            });
+            buttons[activeSuggestionIndex].scrollIntoView({ block: "nearest" });
+        }
+
+        function chooseActiveSuggestion() {
+            const buttons = suggestionButtons();
+
+            if (activeSuggestionIndex < 0 || !buttons[activeSuggestionIndex]) {
+                return false;
+            }
+
+            cityInput.value = buttons[activeSuggestionIndex].textContent;
+            hideSuggestions();
+            return true;
         }
 
         function showSuggestions() {
@@ -192,6 +226,57 @@
         }
 
         cityInput.addEventListener("input", showSuggestions);
+        cityInput.addEventListener("keydown", (event) => {
+            const buttons = suggestionButtons();
+
+            if (event.key === "ArrowDown") {
+                event.preventDefault();
+                if (!buttons.length) {
+                    showSuggestions();
+                    setActiveSuggestion(0);
+                    return;
+                }
+                setActiveSuggestion(activeSuggestionIndex + 1);
+            }
+
+            if (event.key === "ArrowUp") {
+                event.preventDefault();
+                if (!buttons.length) {
+                    showSuggestions();
+                    setActiveSuggestion(0);
+                    return;
+                }
+                setActiveSuggestion(activeSuggestionIndex - 1);
+            }
+
+            if (event.key === "PageDown") {
+                event.preventDefault();
+                if (!buttons.length) {
+                    showSuggestions();
+                    setActiveSuggestion(0);
+                    return;
+                }
+                setActiveSuggestion(activeSuggestionIndex + 4);
+            }
+
+            if (event.key === "PageUp") {
+                event.preventDefault();
+                if (!buttons.length) {
+                    showSuggestions();
+                    setActiveSuggestion(0);
+                    return;
+                }
+                setActiveSuggestion(activeSuggestionIndex - 4);
+            }
+
+            if (event.key === "Enter" && chooseActiveSuggestion()) {
+                event.preventDefault();
+            }
+
+            if (event.key === "Escape") {
+                hideSuggestions();
+            }
+        });
         cityInput.addEventListener("focus", () => {
             if (cityInput.value.trim()) {
                 showSuggestions();
