@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Kalam Bazaar",
+            "address": "Kalam Bazaar, Kalam",
+            "lat": 35.4902,
+            "lng": 72.5889,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Ushu Forest",
+            "address": "Ushu Forest, Kalam",
+            "lat": 35.4962,
+            "lng": 72.5849,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Mahodand Lake Road",
+            "address": "Mahodand Lake Road, Kalam",
+            "lat": 35.5022,
+            "lng": 72.5809,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Matiltan Waterfall Road",
+            "address": "Matiltan Waterfall Road, Kalam",
+            "lat": 35.5082,
+            "lng": 72.5769,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Kalam Bazaar Food Point",
+            "address": "Kalam Bazaar, Kalam",
+            "lat": 35.4922,
+            "lng": 72.5909,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Kalam Medical Center",
+            "address": "Main Road, Kalam",
+            "lat": 35.4932,
+            "lng": 72.5874,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Kalam Fuel Station",
+            "address": "Main Road, Kalam",
+            "lat": 35.4882,
+            "lng": 72.5919,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Matiltan Waterfall Road Market",
+            "address": "Matiltan Waterfall Road, Kalam",
+            "lat": 35.4892,
+            "lng": 72.5869,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Kalam",
+            "address": "Main Bazaar, Kalam",
+            "lat": 35.4917,
+            "lng": 72.5864,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Kalam",
+            "address": "Main Road, Kalam",
+            "lat": 35.4872,
+            "lng": 72.5904,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Kalam View Hotel",
+            "address": "Near Main Bazaar, Kalam",
+            "lat": 35.493,
+            "lng": 72.5896,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Kalam",
+            "address": "Transport Adda, Kalam",
+            "lat": 35.4877,
+            "lng": 72.5879,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Kalam Bank ATM",
+            "address": "Main Bazaar, Kalam",
+            "lat": 35.491,
+            "lng": 72.5907,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Timergara Bazaar",
+            "address": "Timergara Bazaar, Lower Dir",
+            "lat": 34.9161,
+            "lng": 71.8097,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Balambat",
+            "address": "Balambat, Lower Dir",
+            "lat": 34.9221,
+            "lng": 71.8057,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Panjkora River View",
+            "address": "Panjkora River View, Lower Dir",
+            "lat": 34.9281,
+            "lng": 71.8017,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Chakdara Road",
+            "address": "Chakdara Road, Lower Dir",
+            "lat": 34.9341,
+            "lng": 71.7977,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Timergara Bazaar Food Point",
+            "address": "Timergara Bazaar, Lower Dir",
+            "lat": 34.9181,
+            "lng": 71.8117,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Lower Dir Medical Center",
+            "address": "Main Road, Lower Dir",
+            "lat": 34.9191,
+            "lng": 71.8082,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Lower Dir Fuel Station",
+            "address": "Main Road, Lower Dir",
+            "lat": 34.9141,
+            "lng": 71.8127,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Chakdara Road Market",
+            "address": "Chakdara Road, Lower Dir",
+            "lat": 34.9151,
+            "lng": 71.8077,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Lower Dir",
+            "address": "Main Bazaar, Lower Dir",
+            "lat": 34.9176,
+            "lng": 71.8072,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Lower Dir",
+            "address": "Main Road, Lower Dir",
+            "lat": 34.9131,
+            "lng": 71.8112,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Lower Dir View Hotel",
+            "address": "Near Main Bazaar, Lower Dir",
+            "lat": 34.9189,
+            "lng": 71.8104,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Lower Dir",
+            "address": "Transport Adda, Lower Dir",
+            "lat": 34.9136,
+            "lng": 71.8087,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Lower Dir Bank ATM",
+            "address": "Main Bazaar, Lower Dir",
+            "lat": 34.9169,
+            "lng": 71.8115,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Mansehra Bazaar",
+            "address": "Mansehra Bazaar, Mansehra",
+            "lat": 34.3339,
+            "lng": 73.2011,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Shinkiari",
+            "address": "Shinkiari, Mansehra",
+            "lat": 34.3399,
+            "lng": 73.1971,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Karakoram Highway",
+            "address": "Karakoram Highway, Mansehra",
+            "lat": 34.3459,
+            "lng": 73.1931,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Lulusar-Dudipatsar Route Office Area",
+            "address": "Lulusar-Dudipatsar Route Office Area, Mansehra",
+            "lat": 34.3519,
+            "lng": 73.1891,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Mansehra Bazaar Food Point",
+            "address": "Mansehra Bazaar, Mansehra",
+            "lat": 34.3359,
+            "lng": 73.2031,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Mansehra Medical Center",
+            "address": "Main Road, Mansehra",
+            "lat": 34.3369,
+            "lng": 73.1996,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Mansehra Fuel Station",
+            "address": "Main Road, Mansehra",
+            "lat": 34.3319,
+            "lng": 73.2041,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Lulusar-Dudipatsar Route Office Area Market",
+            "address": "Lulusar-Dudipatsar Route Office Area, Mansehra",
+            "lat": 34.3329,
+            "lng": 73.1991,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Mansehra",
+            "address": "Main Bazaar, Mansehra",
+            "lat": 34.3354,
+            "lng": 73.1986,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Mansehra",
+            "address": "Main Road, Mansehra",
+            "lat": 34.3309,
+            "lng": 73.2026,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Mansehra View Hotel",
+            "address": "Near Main Bazaar, Mansehra",
+            "lat": 34.3367,
+            "lng": 73.2018,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Mansehra",
+            "address": "Transport Adda, Mansehra",
+            "lat": 34.3314,
+            "lng": 73.2001,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Mansehra Bank ATM",
+            "address": "Main Bazaar, Mansehra",
+            "lat": 34.3347,
+            "lng": 73.2029,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Nowshera Cantt",
+            "address": "Nowshera Cantt, Nowshera",
+            "lat": 34.0159,
+            "lng": 71.9812,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Risalpur",
+            "address": "Risalpur, Nowshera",
+            "lat": 34.0219,
+            "lng": 71.9772,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Akora Khattak",
+            "address": "Akora Khattak, Nowshera",
+            "lat": 34.0279,
+            "lng": 71.9732,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "GT Road",
+            "address": "GT Road, Nowshera",
+            "lat": 34.0339,
+            "lng": 71.9692,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Nowshera Cantt Food Point",
+            "address": "Nowshera Cantt, Nowshera",
+            "lat": 34.0179,
+            "lng": 71.9832,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Nowshera Medical Center",
+            "address": "Main Road, Nowshera",
+            "lat": 34.0189,
+            "lng": 71.9797,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Nowshera Fuel Station",
+            "address": "Main Road, Nowshera",
+            "lat": 34.0139,
+            "lng": 71.9842,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "GT Road Market",
+            "address": "GT Road, Nowshera",
+            "lat": 34.0149,
+            "lng": 71.9792,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Nowshera",
+            "address": "Main Bazaar, Nowshera",
+            "lat": 34.0174,
+            "lng": 71.9787,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Nowshera",
+            "address": "Main Road, Nowshera",
+            "lat": 34.0129,
+            "lng": 71.9827,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Nowshera View Hotel",
+            "address": "Near Main Bazaar, Nowshera",
+            "lat": 34.0187,
+            "lng": 71.9819,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Nowshera",
+            "address": "Transport Adda, Nowshera",
+            "lat": 34.0134,
+            "lng": 71.9802,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Nowshera Bank ATM",
+            "address": "Main Bazaar, Nowshera",
+            "lat": 34.0167,
+            "lng": 71.983,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

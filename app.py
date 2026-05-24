@@ -20,18 +20,189 @@ CATEGORIES = [
 ]
 
 CITY_ALIASES = {
+    "abbottabad": "abbottabad",
+    "abottabad": "abbottabad",
+    "balakot": "balakot",
+    "bannu": "bannu",
+    "batagram": "battagram",
+    "battagram": "battagram",
+    "bunair": "buner",
+    "buner": "buner",
+    "bunir": "buner",
+    "charsadda": "charsadda",
+    "chakdara": "chakdara",
+    "chitral": "lower-chitral",
+    "chitral-lower": "lower-chitral",
+    "chitral-upper": "upper-chitral",
+    "dera-ismail-khan": "dera-ismail-khan",
+    "di-khan": "dera-ismail-khan",
+    "dikhan": "dera-ismail-khan",
+    "dir": "lower-dir",
+    "dir-lower": "lower-dir",
+    "dir-upper": "upper-dir",
+    "hangu": "hangu",
+    "haripur": "haripur",
+    "kaghan": "kaghan",
+    "kalam": "kalam",
+    "karak": "karak",
+    "kohat": "kohat",
+    "lakki-marwat": "lakki-marwat",
+    "lower-chitral": "lower-chitral",
+    "lower-dir": "lower-dir",
+    "malakand": "malakand",
     "mardan": "mardan",
+    "mansehra": "mansehra",
+    "mingora": "swat",
+    "naran": "naran",
+    "nowshera": "nowshera",
     "peshawar": "peshawar",
+    "shogran": "shogran",
     "swabi": "swabi",
     "sawabi": "swabi",
+    "swat": "swat",
+    "tank": "tank",
+    "upper-chitral": "upper-chitral",
+    "upper-dir": "upper-dir",
 }
 
 CITIES = {
+    "abbottabad": {
+        "name": "Abbottabad",
+        "file": "abbottabad_places.json",
+        "center": [34.1688, 73.2215],
+        "tagline": "Explore Abbottabad, Jinnahabad, Supply, Mandian, and nearby hill routes.",
+    },
+    "balakot": {
+        "name": "Balakot",
+        "file": "balakot_places.json",
+        "center": [34.5473, 73.3516],
+        "tagline": "Find useful stops around Balakot, the Kaghan Valley gateway, and riverside travel routes.",
+    },
+    "bannu": {
+        "name": "Bannu",
+        "file": "bannu_places.json",
+        "center": [32.9861, 70.6042],
+        "tagline": "Explore food, hospitals, markets, hotels, and daily services across Bannu.",
+    },
+    "battagram": {
+        "name": "Battagram",
+        "file": "battagram_places.json",
+        "center": [34.6772, 73.0233],
+        "tagline": "Find places around Battagram city, main bazaars, and Karakoram Highway stops.",
+    },
+    "buner": {
+        "name": "Buner",
+        "file": "buner_places.json",
+        "center": [34.3943, 72.6151],
+        "tagline": "Explore useful places around Buner, Daggar, Pir Baba, and nearby scenic areas.",
+    },
+    "charsadda": {
+        "name": "Charsadda",
+        "file": "charsadda_places.json",
+        "center": [34.1482, 71.7406],
+        "tagline": "Find restaurants, hospitals, markets, and travel stops across Charsadda and Tangi.",
+    },
+    "chakdara": {
+        "name": "Chakdara",
+        "file": "chakdara_places.json",
+        "center": [34.6507, 72.0318],
+        "tagline": "Explore Chakdara, Malakand University, Swat Road stops, and nearby services.",
+    },
+    "kalam": {
+        "name": "Kalam",
+        "file": "kalam_places.json",
+        "center": [35.4902, 72.5889],
+        "tagline": "Explore hotels, food spots, tourist points, and travel services in Kalam Valley.",
+    },
+    "karak": {
+        "name": "Karak",
+        "file": "karak_places.json",
+        "center": [33.1163, 71.0935],
+        "tagline": "Find daily services, food, health, banks, and highway stops around Karak.",
+    },
+    "kohat": {
+        "name": "Kohat",
+        "file": "kohat_places.json",
+        "center": [33.5869, 71.4429],
+        "tagline": "Explore Kohat city, bazaars, hospitals, hotels, and travel services.",
+    },
+    "lower-chitral": {
+        "name": "Lower Chitral",
+        "file": "lower_chitral_places.json",
+        "center": [35.8518, 71.7864],
+        "tagline": "Discover useful places around Chitral city, airports, hotels, and tourist routes.",
+    },
+    "upper-chitral": {
+        "name": "Upper Chitral",
+        "file": "upper_chitral_places.json",
+        "center": [36.2136, 72.1792],
+        "tagline": "Explore Booni, Mastuj, and Upper Chitral travel stops, hotels, and services.",
+    },
+    "dera-ismail-khan": {
+        "name": "Dera Ismail Khan",
+        "file": "dera_ismail_khan_places.json",
+        "center": [31.8327, 70.9024],
+        "tagline": "Find food, hospitals, markets, hotels, banks, and travel services in D.I. Khan.",
+    },
+    "hangu": {
+        "name": "Hangu",
+        "file": "hangu_places.json",
+        "center": [33.5317, 71.0595],
+        "tagline": "Explore useful places around Hangu city, bazaars, and travel routes.",
+    },
+    "haripur": {
+        "name": "Haripur",
+        "file": "haripur_places.json",
+        "center": [33.9946, 72.9106],
+        "tagline": "Find places across Haripur, Hattar, Khanpur, and nearby travel areas.",
+    },
+    "kaghan": {
+        "name": "Kaghan",
+        "file": "kaghan_places.json",
+        "center": [34.7796, 73.5207],
+        "tagline": "Explore hotels, restaurants, tourist stops, and services in Kaghan Valley.",
+    },
+    "lakki-marwat": {
+        "name": "Lakki Marwat",
+        "file": "lakki_marwat_places.json",
+        "center": [32.6079, 70.9114],
+        "tagline": "Find everyday services, food, health, banks, and transport stops around Lakki Marwat.",
+    },
+    "lower-dir": {
+        "name": "Lower Dir",
+        "file": "lower_dir_places.json",
+        "center": [34.9161, 71.8097],
+        "tagline": "Explore Timergara, Chakdara Road, hospitals, markets, and travel services in Lower Dir.",
+    },
+    "malakand": {
+        "name": "Malakand",
+        "file": "malakand_places.json",
+        "center": [34.5656, 71.9304],
+        "tagline": "Find useful places around Batkhela, Dargai, and Malakand travel routes.",
+    },
     "mardan": {
         "name": "Mardan",
         "file": "mardan_places.json",
         "center": [34.1986, 72.0404],
         "tagline": "Explore food, health, travel, shopping, and daily services across Mardan.",
+    },
+    "mansehra": {
+        "name": "Mansehra",
+        "file": "mansehra_places.json",
+        "center": [34.3339, 73.2011],
+        "tagline": "Explore Mansehra city, Shinkiari, tourist routes, hotels, and daily services.",
+    },
+    "naran": {
+        "name": "Naran",
+        "file": "naran_places.json",
+        "center": [34.9093, 73.6507],
+        "tagline": "Find popular hotels, restaurants, tourist points, and travel services in Naran.",
+    },
+    "nowshera": {
+        "name": "Nowshera",
+        "file": "nowshera_places.json",
+        "center": [34.0159, 71.9812],
+        "tagline": "Explore Nowshera, Risalpur, Akora Khattak, and busy GT Road service areas.",
     },
     "peshawar": {
         "name": "Peshawar",
@@ -39,11 +210,35 @@ CITIES = {
         "center": [34.0151, 71.5249],
         "tagline": "Explore useful places across Peshawar, from Saddar and University Road to Hayatabad.",
     },
+    "shogran": {
+        "name": "Shogran",
+        "file": "shogran_places.json",
+        "center": [34.6271, 73.4747],
+        "tagline": "Explore hotels, food, jeep routes, and tourist spots around Shogran and Siri Paye.",
+    },
     "swabi": {
         "name": "Swabi",
         "file": "swabi_places.json",
         "center": [34.1241, 72.4698],
         "tagline": "Find useful places around Swabi, Topi, and nearby busy areas.",
+    },
+    "swat": {
+        "name": "Swat",
+        "file": "swat_places.json",
+        "center": [34.7717, 72.3602],
+        "tagline": "Explore Mingora, Saidu Sharif, Fizagat, Malam Jabba Road, and Swat Valley services.",
+    },
+    "tank": {
+        "name": "Tank",
+        "file": "tank_places.json",
+        "center": [32.2167, 70.3833],
+        "tagline": "Find daily services, food, health, banks, and travel stops around Tank.",
+    },
+    "upper-dir": {
+        "name": "Upper Dir",
+        "file": "upper_dir_places.json",
+        "center": [35.2074, 71.8756],
+        "tagline": "Explore Dir city, Kumrat route services, hotels, food, and travel stops.",
     },
 }
 
@@ -102,6 +297,107 @@ STARTER_PLACES = {
     }
 }
 
+POPULAR_PLACE_GROUPS = {
+    "abbottabad": ["Ilyasi Mosque", "Shimla Hill", "Lady Garden Public Park", "Thandiani Road"],
+    "balakot": ["Kunhar River View", "Balakot Bazaar", "Kaghan Road", "Garhi Habibullah Road"],
+    "bannu": ["Bannu Bazaar", "Mandew Park", "Bannu Township", "Kohat Road"],
+    "battagram": ["Battagram Bazaar", "Karakoram Highway View", "Allai Road", "District Courts Area"],
+    "buner": ["Pir Baba", "Daggar Bazaar", "Elum Mountain View", "Jowar Road"],
+    "charsadda": ["Rajjar Bazaar", "Tangi Bazaar", "Khyali River Area", "Charsadda Museum Area"],
+    "chakdara": ["Chakdara Fort", "University of Malakand", "Swat River Bridge", "Chakdara Bazaar"],
+    "kalam": ["Kalam Bazaar", "Ushu Forest", "Mahodand Lake Road", "Matiltan Waterfall Road"],
+    "karak": ["Karak Bazaar", "Karak Fort Area", "Indus Highway", "Sabirabad Road"],
+    "kohat": ["Kohat Bazaar", "KDA Kohat", "Tanda Dam", "Kohat Tunnel Road"],
+    "lower-chitral": ["Chitral Fort", "Shahi Masjid Chitral", "Chitral Bazaar", "Birmoghlasht Road"],
+    "upper-chitral": ["Booni Bazaar", "Qaqlasht Meadows", "Mastuj Road", "Torkhow Road"],
+    "dera-ismail-khan": ["D.I. Khan Bazaar", "Indus River View", "Tank Adda", "Circular Road"],
+    "hangu": ["Hangu Bazaar", "Doaba Road", "Thall Road", "District Courts Area"],
+    "haripur": ["Khanpur Dam", "Haripur Bazaar", "Hattar Road", "Sarai Saleh"],
+    "kaghan": ["Kaghan Bazaar", "Kunhar River View", "Shogran Road", "Naran Road"],
+    "lakki-marwat": ["Lakki Bazaar", "Gambila River Area", "Bannu Road", "Naurang Road"],
+    "lower-dir": ["Timergara Bazaar", "Balambat", "Panjkora River View", "Chakdara Road"],
+    "malakand": ["Batkhela Bazaar", "Dargai Bazaar", "Malakand Pass", "Jabban Road"],
+    "mansehra": ["Mansehra Bazaar", "Shinkiari", "Karakoram Highway", "Lulusar-Dudipatsar Route Office Area"],
+    "naran": ["Naran Bazaar", "Saif-ul-Malook Lake Road", "Kunhar River View", "Babusar Road"],
+    "nowshera": ["Nowshera Cantt", "Risalpur", "Akora Khattak", "GT Road"],
+    "shogran": ["Shogran Bazaar", "Siri Paye Meadows", "Kiwai Waterfall", "Jeep Track Point"],
+    "swat": ["Fizagat Park", "Saidu Sharif", "Mingora Bazaar", "Malam Jabba Road"],
+    "tank": ["Tank Bazaar", "D.I. Khan Road", "Waziristan Road", "District Courts Area"],
+    "upper-dir": ["Dir Bazaar", "Kumrat Valley Road", "Sheringal", "Lowari Tunnel Road"],
+}
+
+STARTER_CATEGORY_TEMPLATES = {
+    "restaurants": ("{area} Food Point", "{area}, {city}", 0.0020, 0.0020),
+    "hospitals": ("{city} Medical Center", "Main Road, {city}", 0.0030, -0.0015),
+    "petrol-pumps": ("{city} Fuel Station", "Main Road, {city}", -0.0020, 0.0030),
+    "shopping-malls": ("{area} Market", "{area}, {city}", -0.0010, -0.0020),
+    "pharmacies": ("Care Pharmacy {city}", "Main Bazaar, {city}", 0.0015, -0.0025),
+    "wedding-halls": ("Royal Marquee {city}", "Main Road, {city}", -0.0030, 0.0015),
+    "hotels": ("{city} View Hotel", "Near Main Bazaar, {city}", 0.0028, 0.0007),
+    "workshops": ("Auto Care Workshop {city}", "Transport Adda, {city}", -0.0025, -0.0010),
+    "banks-and-atms": ("{city} Bank ATM", "Main Bazaar, {city}", 0.0008, 0.0018),
+}
+
+
+def starter_place(name, address, lat, lng):
+    return {
+        "name": name,
+        "address": address,
+        "lat": round(lat, 6),
+        "lng": round(lng, 6),
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "source": "Starter data",
+    }
+
+
+def generated_starter_places(city_slug):
+    if city_slug in STARTER_PLACES:
+        return STARTER_PLACES[city_slug]
+
+    city = CITIES[city_slug]
+    city_name = city["name"]
+    center_lat, center_lng = city["center"]
+    popular_areas = POPULAR_PLACE_GROUPS.get(city_slug, [city_name])
+    places = {}
+
+    for index, spot_name in enumerate(popular_areas[:4]):
+        places.setdefault("tourist-spots", []).append(
+            starter_place(
+                spot_name,
+                f"{spot_name}, {city_name}",
+                center_lat + (index * 0.006),
+                center_lng - (index * 0.004),
+            )
+        )
+
+    for index, (category_slug, template) in enumerate(STARTER_CATEGORY_TEMPLATES.items()):
+        name_template, address_template, lat_offset, lng_offset = template
+        area = popular_areas[index % len(popular_areas)]
+        places[category_slug] = [
+            starter_place(
+                name_template.format(area=area, city=city_name),
+                address_template.format(area=area, city=city_name),
+                center_lat + lat_offset,
+                center_lng + lng_offset,
+            )
+        ]
+
+    return places
+
+
+def merge_starter_places(city_slug, places):
+    starter_places = generated_starter_places(city_slug)
+    changed = False
+
+    for category_slug, starter_items in starter_places.items():
+        if not places.get(category_slug):
+            places[category_slug] = starter_items
+            changed = True
+
+    return places, changed
+
 
 def normalize_city(city_value):
     city_slug = city_value.strip().lower().replace(" ", "-")
@@ -116,7 +412,7 @@ def load_places(city_slug):
     places_file = city_file(city_slug)
 
     if not places_file.exists():
-        starter_places = STARTER_PLACES.get(city_slug, {})
+        starter_places = generated_starter_places(city_slug)
         try:
             save_places(city_slug, starter_places)
         except OSError:
@@ -124,7 +420,16 @@ def load_places(city_slug):
         return starter_places
 
     with places_file.open("r", encoding="utf-8") as file:
-        return json.load(file)
+        places = json.load(file)
+
+    merged_places, changed = merge_starter_places(city_slug, places)
+    if changed:
+        try:
+            save_places(city_slug, merged_places)
+        except OSError:
+            pass
+
+    return merged_places
 
 
 def save_places(city_slug, places):
@@ -257,4 +562,4 @@ def city_category(city_slug, category_slug):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False)

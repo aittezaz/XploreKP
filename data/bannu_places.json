@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Bannu Bazaar",
+            "address": "Bannu Bazaar, Bannu",
+            "lat": 32.9861,
+            "lng": 70.6042,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Mandew Park",
+            "address": "Mandew Park, Bannu",
+            "lat": 32.9921,
+            "lng": 70.6002,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Bannu Township",
+            "address": "Bannu Township, Bannu",
+            "lat": 32.9981,
+            "lng": 70.5962,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Kohat Road",
+            "address": "Kohat Road, Bannu",
+            "lat": 33.0041,
+            "lng": 70.5922,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Bannu Bazaar Food Point",
+            "address": "Bannu Bazaar, Bannu",
+            "lat": 32.9881,
+            "lng": 70.6062,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Bannu Medical Center",
+            "address": "Main Road, Bannu",
+            "lat": 32.9891,
+            "lng": 70.6027,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Bannu Fuel Station",
+            "address": "Main Road, Bannu",
+            "lat": 32.9841,
+            "lng": 70.6072,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Kohat Road Market",
+            "address": "Kohat Road, Bannu",
+            "lat": 32.9851,
+            "lng": 70.6022,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Bannu",
+            "address": "Main Bazaar, Bannu",
+            "lat": 32.9876,
+            "lng": 70.6017,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Bannu",
+            "address": "Main Road, Bannu",
+            "lat": 32.9831,
+            "lng": 70.6057,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Bannu View Hotel",
+            "address": "Near Main Bazaar, Bannu",
+            "lat": 32.9889,
+            "lng": 70.6049,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Bannu",
+            "address": "Transport Adda, Bannu",
+            "lat": 32.9836,
+            "lng": 70.6032,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Bannu Bank ATM",
+            "address": "Main Bazaar, Bannu",
+            "lat": 32.9869,
+            "lng": 70.606,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

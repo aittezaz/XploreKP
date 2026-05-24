@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Lakki Bazaar",
+            "address": "Lakki Bazaar, Lakki Marwat",
+            "lat": 32.6079,
+            "lng": 70.9114,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Gambila River Area",
+            "address": "Gambila River Area, Lakki Marwat",
+            "lat": 32.6139,
+            "lng": 70.9074,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Bannu Road",
+            "address": "Bannu Road, Lakki Marwat",
+            "lat": 32.6199,
+            "lng": 70.9034,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Naurang Road",
+            "address": "Naurang Road, Lakki Marwat",
+            "lat": 32.6259,
+            "lng": 70.8994,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Lakki Bazaar Food Point",
+            "address": "Lakki Bazaar, Lakki Marwat",
+            "lat": 32.6099,
+            "lng": 70.9134,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Lakki Marwat Medical Center",
+            "address": "Main Road, Lakki Marwat",
+            "lat": 32.6109,
+            "lng": 70.9099,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Lakki Marwat Fuel Station",
+            "address": "Main Road, Lakki Marwat",
+            "lat": 32.6059,
+            "lng": 70.9144,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Naurang Road Market",
+            "address": "Naurang Road, Lakki Marwat",
+            "lat": 32.6069,
+            "lng": 70.9094,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Lakki Marwat",
+            "address": "Main Bazaar, Lakki Marwat",
+            "lat": 32.6094,
+            "lng": 70.9089,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Lakki Marwat",
+            "address": "Main Road, Lakki Marwat",
+            "lat": 32.6049,
+            "lng": 70.9129,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Lakki Marwat View Hotel",
+            "address": "Near Main Bazaar, Lakki Marwat",
+            "lat": 32.6107,
+            "lng": 70.9121,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Lakki Marwat",
+            "address": "Transport Adda, Lakki Marwat",
+            "lat": 32.6054,
+            "lng": 70.9104,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Lakki Marwat Bank ATM",
+            "address": "Main Bazaar, Lakki Marwat",
+            "lat": 32.6087,
+            "lng": 70.9132,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

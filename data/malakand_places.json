@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Batkhela Bazaar",
+            "address": "Batkhela Bazaar, Malakand",
+            "lat": 34.5656,
+            "lng": 71.9304,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Dargai Bazaar",
+            "address": "Dargai Bazaar, Malakand",
+            "lat": 34.5716,
+            "lng": 71.9264,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Malakand Pass",
+            "address": "Malakand Pass, Malakand",
+            "lat": 34.5776,
+            "lng": 71.9224,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Jabban Road",
+            "address": "Jabban Road, Malakand",
+            "lat": 34.5836,
+            "lng": 71.9184,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Batkhela Bazaar Food Point",
+            "address": "Batkhela Bazaar, Malakand",
+            "lat": 34.5676,
+            "lng": 71.9324,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Malakand Medical Center",
+            "address": "Main Road, Malakand",
+            "lat": 34.5686,
+            "lng": 71.9289,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Malakand Fuel Station",
+            "address": "Main Road, Malakand",
+            "lat": 34.5636,
+            "lng": 71.9334,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Jabban Road Market",
+            "address": "Jabban Road, Malakand",
+            "lat": 34.5646,
+            "lng": 71.9284,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Malakand",
+            "address": "Main Bazaar, Malakand",
+            "lat": 34.5671,
+            "lng": 71.9279,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Malakand",
+            "address": "Main Road, Malakand",
+            "lat": 34.5626,
+            "lng": 71.9319,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Malakand View Hotel",
+            "address": "Near Main Bazaar, Malakand",
+            "lat": 34.5684,
+            "lng": 71.9311,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Malakand",
+            "address": "Transport Adda, Malakand",
+            "lat": 34.5631,
+            "lng": 71.9294,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Malakand Bank ATM",
+            "address": "Main Bazaar, Malakand",
+            "lat": 34.5664,
+            "lng": 71.9322,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

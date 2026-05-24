@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Naran Bazaar",
+            "address": "Naran Bazaar, Naran",
+            "lat": 34.9093,
+            "lng": 73.6507,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Saif-ul-Malook Lake Road",
+            "address": "Saif-ul-Malook Lake Road, Naran",
+            "lat": 34.9153,
+            "lng": 73.6467,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Kunhar River View",
+            "address": "Kunhar River View, Naran",
+            "lat": 34.9213,
+            "lng": 73.6427,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Babusar Road",
+            "address": "Babusar Road, Naran",
+            "lat": 34.9273,
+            "lng": 73.6387,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Naran Bazaar Food Point",
+            "address": "Naran Bazaar, Naran",
+            "lat": 34.9113,
+            "lng": 73.6527,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Naran Medical Center",
+            "address": "Main Road, Naran",
+            "lat": 34.9123,
+            "lng": 73.6492,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Naran Fuel Station",
+            "address": "Main Road, Naran",
+            "lat": 34.9073,
+            "lng": 73.6537,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Babusar Road Market",
+            "address": "Babusar Road, Naran",
+            "lat": 34.9083,
+            "lng": 73.6487,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Naran",
+            "address": "Main Bazaar, Naran",
+            "lat": 34.9108,
+            "lng": 73.6482,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Naran",
+            "address": "Main Road, Naran",
+            "lat": 34.9063,
+            "lng": 73.6522,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Naran View Hotel",
+            "address": "Near Main Bazaar, Naran",
+            "lat": 34.9121,
+            "lng": 73.6514,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Naran",
+            "address": "Transport Adda, Naran",
+            "lat": 34.9068,
+            "lng": 73.6497,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Naran Bank ATM",
+            "address": "Main Bazaar, Naran",
+            "lat": 34.9101,
+            "lng": 73.6525,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

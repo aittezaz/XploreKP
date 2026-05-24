@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Karak Bazaar",
+            "address": "Karak Bazaar, Karak",
+            "lat": 33.1163,
+            "lng": 71.0935,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Karak Fort Area",
+            "address": "Karak Fort Area, Karak",
+            "lat": 33.1223,
+            "lng": 71.0895,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Indus Highway",
+            "address": "Indus Highway, Karak",
+            "lat": 33.1283,
+            "lng": 71.0855,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Sabirabad Road",
+            "address": "Sabirabad Road, Karak",
+            "lat": 33.1343,
+            "lng": 71.0815,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Karak Bazaar Food Point",
+            "address": "Karak Bazaar, Karak",
+            "lat": 33.1183,
+            "lng": 71.0955,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Karak Medical Center",
+            "address": "Main Road, Karak",
+            "lat": 33.1193,
+            "lng": 71.092,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Karak Fuel Station",
+            "address": "Main Road, Karak",
+            "lat": 33.1143,
+            "lng": 71.0965,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Sabirabad Road Market",
+            "address": "Sabirabad Road, Karak",
+            "lat": 33.1153,
+            "lng": 71.0915,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Karak",
+            "address": "Main Bazaar, Karak",
+            "lat": 33.1178,
+            "lng": 71.091,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Karak",
+            "address": "Main Road, Karak",
+            "lat": 33.1133,
+            "lng": 71.095,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Karak View Hotel",
+            "address": "Near Main Bazaar, Karak",
+            "lat": 33.1191,
+            "lng": 71.0942,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Karak",
+            "address": "Transport Adda, Karak",
+            "lat": 33.1138,
+            "lng": 71.0925,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Karak Bank ATM",
+            "address": "Main Bazaar, Karak",
+            "lat": 33.1171,
+            "lng": 71.0953,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

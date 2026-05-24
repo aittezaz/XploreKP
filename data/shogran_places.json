@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Shogran Bazaar",
+            "address": "Shogran Bazaar, Shogran",
+            "lat": 34.6271,
+            "lng": 73.4747,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Siri Paye Meadows",
+            "address": "Siri Paye Meadows, Shogran",
+            "lat": 34.6331,
+            "lng": 73.4707,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Kiwai Waterfall",
+            "address": "Kiwai Waterfall, Shogran",
+            "lat": 34.6391,
+            "lng": 73.4667,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Jeep Track Point",
+            "address": "Jeep Track Point, Shogran",
+            "lat": 34.6451,
+            "lng": 73.4627,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Shogran Bazaar Food Point",
+            "address": "Shogran Bazaar, Shogran",
+            "lat": 34.6291,
+            "lng": 73.4767,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Shogran Medical Center",
+            "address": "Main Road, Shogran",
+            "lat": 34.6301,
+            "lng": 73.4732,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Shogran Fuel Station",
+            "address": "Main Road, Shogran",
+            "lat": 34.6251,
+            "lng": 73.4777,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Jeep Track Point Market",
+            "address": "Jeep Track Point, Shogran",
+            "lat": 34.6261,
+            "lng": 73.4727,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Shogran",
+            "address": "Main Bazaar, Shogran",
+            "lat": 34.6286,
+            "lng": 73.4722,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Shogran",
+            "address": "Main Road, Shogran",
+            "lat": 34.6241,
+            "lng": 73.4762,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Shogran View Hotel",
+            "address": "Near Main Bazaar, Shogran",
+            "lat": 34.6299,
+            "lng": 73.4754,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Shogran",
+            "address": "Transport Adda, Shogran",
+            "lat": 34.6246,
+            "lng": 73.4737,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Shogran Bank ATM",
+            "address": "Main Bazaar, Shogran",
+            "lat": 34.6279,
+            "lng": 73.4765,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

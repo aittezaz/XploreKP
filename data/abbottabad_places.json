@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Ilyasi Mosque",
+            "address": "Ilyasi Mosque, Abbottabad",
+            "lat": 34.1688,
+            "lng": 73.2215,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Shimla Hill",
+            "address": "Shimla Hill, Abbottabad",
+            "lat": 34.1748,
+            "lng": 73.2175,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Lady Garden Public Park",
+            "address": "Lady Garden Public Park, Abbottabad",
+            "lat": 34.1808,
+            "lng": 73.2135,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Thandiani Road",
+            "address": "Thandiani Road, Abbottabad",
+            "lat": 34.1868,
+            "lng": 73.2095,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Ilyasi Mosque Food Point",
+            "address": "Ilyasi Mosque, Abbottabad",
+            "lat": 34.1708,
+            "lng": 73.2235,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Abbottabad Medical Center",
+            "address": "Main Road, Abbottabad",
+            "lat": 34.1718,
+            "lng": 73.22,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Abbottabad Fuel Station",
+            "address": "Main Road, Abbottabad",
+            "lat": 34.1668,
+            "lng": 73.2245,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Thandiani Road Market",
+            "address": "Thandiani Road, Abbottabad",
+            "lat": 34.1678,
+            "lng": 73.2195,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Abbottabad",
+            "address": "Main Bazaar, Abbottabad",
+            "lat": 34.1703,
+            "lng": 73.219,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Abbottabad",
+            "address": "Main Road, Abbottabad",
+            "lat": 34.1658,
+            "lng": 73.223,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Abbottabad View Hotel",
+            "address": "Near Main Bazaar, Abbottabad",
+            "lat": 34.1716,
+            "lng": 73.2222,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Abbottabad",
+            "address": "Transport Adda, Abbottabad",
+            "lat": 34.1663,
+            "lng": 73.2205,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Abbottabad Bank ATM",
+            "address": "Main Bazaar, Abbottabad",
+            "lat": 34.1696,
+            "lng": 73.2233,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

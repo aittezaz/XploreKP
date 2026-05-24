@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Kohat Bazaar",
+            "address": "Kohat Bazaar, Kohat",
+            "lat": 33.5869,
+            "lng": 71.4429,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "KDA Kohat",
+            "address": "KDA Kohat, Kohat",
+            "lat": 33.5929,
+            "lng": 71.4389,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Tanda Dam",
+            "address": "Tanda Dam, Kohat",
+            "lat": 33.5989,
+            "lng": 71.4349,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Kohat Tunnel Road",
+            "address": "Kohat Tunnel Road, Kohat",
+            "lat": 33.6049,
+            "lng": 71.4309,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Kohat Bazaar Food Point",
+            "address": "Kohat Bazaar, Kohat",
+            "lat": 33.5889,
+            "lng": 71.4449,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Kohat Medical Center",
+            "address": "Main Road, Kohat",
+            "lat": 33.5899,
+            "lng": 71.4414,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Kohat Fuel Station",
+            "address": "Main Road, Kohat",
+            "lat": 33.5849,
+            "lng": 71.4459,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Kohat Tunnel Road Market",
+            "address": "Kohat Tunnel Road, Kohat",
+            "lat": 33.5859,
+            "lng": 71.4409,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Kohat",
+            "address": "Main Bazaar, Kohat",
+            "lat": 33.5884,
+            "lng": 71.4404,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Kohat",
+            "address": "Main Road, Kohat",
+            "lat": 33.5839,
+            "lng": 71.4444,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Kohat View Hotel",
+            "address": "Near Main Bazaar, Kohat",
+            "lat": 33.5897,
+            "lng": 71.4436,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Kohat",
+            "address": "Transport Adda, Kohat",
+            "lat": 33.5844,
+            "lng": 71.4419,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Kohat Bank ATM",
+            "address": "Main Bazaar, Kohat",
+            "lat": 33.5877,
+            "lng": 71.4447,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

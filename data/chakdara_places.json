@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Chakdara Fort",
+            "address": "Chakdara Fort, Chakdara",
+            "lat": 34.6507,
+            "lng": 72.0318,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "University of Malakand",
+            "address": "University of Malakand, Chakdara",
+            "lat": 34.6567,
+            "lng": 72.0278,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Swat River Bridge",
+            "address": "Swat River Bridge, Chakdara",
+            "lat": 34.6627,
+            "lng": 72.0238,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Chakdara Bazaar",
+            "address": "Chakdara Bazaar, Chakdara",
+            "lat": 34.6687,
+            "lng": 72.0198,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Chakdara Fort Food Point",
+            "address": "Chakdara Fort, Chakdara",
+            "lat": 34.6527,
+            "lng": 72.0338,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Chakdara Medical Center",
+            "address": "Main Road, Chakdara",
+            "lat": 34.6537,
+            "lng": 72.0303,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Chakdara Fuel Station",
+            "address": "Main Road, Chakdara",
+            "lat": 34.6487,
+            "lng": 72.0348,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Chakdara Bazaar Market",
+            "address": "Chakdara Bazaar, Chakdara",
+            "lat": 34.6497,
+            "lng": 72.0298,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Chakdara",
+            "address": "Main Bazaar, Chakdara",
+            "lat": 34.6522,
+            "lng": 72.0293,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Chakdara",
+            "address": "Main Road, Chakdara",
+            "lat": 34.6477,
+            "lng": 72.0333,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Chakdara View Hotel",
+            "address": "Near Main Bazaar, Chakdara",
+            "lat": 34.6535,
+            "lng": 72.0325,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Chakdara",
+            "address": "Transport Adda, Chakdara",
+            "lat": 34.6482,
+            "lng": 72.0308,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Chakdara Bank ATM",
+            "address": "Main Bazaar, Chakdara",
+            "lat": 34.6515,
+            "lng": 72.0336,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

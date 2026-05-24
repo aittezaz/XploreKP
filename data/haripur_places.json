@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Khanpur Dam",
+            "address": "Khanpur Dam, Haripur",
+            "lat": 33.9946,
+            "lng": 72.9106,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Haripur Bazaar",
+            "address": "Haripur Bazaar, Haripur",
+            "lat": 34.0006,
+            "lng": 72.9066,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Hattar Road",
+            "address": "Hattar Road, Haripur",
+            "lat": 34.0066,
+            "lng": 72.9026,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Sarai Saleh",
+            "address": "Sarai Saleh, Haripur",
+            "lat": 34.0126,
+            "lng": 72.8986,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Khanpur Dam Food Point",
+            "address": "Khanpur Dam, Haripur",
+            "lat": 33.9966,
+            "lng": 72.9126,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Haripur Medical Center",
+            "address": "Main Road, Haripur",
+            "lat": 33.9976,
+            "lng": 72.9091,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Haripur Fuel Station",
+            "address": "Main Road, Haripur",
+            "lat": 33.9926,
+            "lng": 72.9136,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Sarai Saleh Market",
+            "address": "Sarai Saleh, Haripur",
+            "lat": 33.9936,
+            "lng": 72.9086,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Haripur",
+            "address": "Main Bazaar, Haripur",
+            "lat": 33.9961,
+            "lng": 72.9081,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Haripur",
+            "address": "Main Road, Haripur",
+            "lat": 33.9916,
+            "lng": 72.9121,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Haripur View Hotel",
+            "address": "Near Main Bazaar, Haripur",
+            "lat": 33.9974,
+            "lng": 72.9113,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Haripur",
+            "address": "Transport Adda, Haripur",
+            "lat": 33.9921,
+            "lng": 72.9096,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Haripur Bank ATM",
+            "address": "Main Bazaar, Haripur",
+            "lat": 33.9954,
+            "lng": 72.9124,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

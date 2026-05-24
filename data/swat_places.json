@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Fizagat Park",
+            "address": "Fizagat Park, Swat",
+            "lat": 34.7717,
+            "lng": 72.3602,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Saidu Sharif",
+            "address": "Saidu Sharif, Swat",
+            "lat": 34.7777,
+            "lng": 72.3562,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Mingora Bazaar",
+            "address": "Mingora Bazaar, Swat",
+            "lat": 34.7837,
+            "lng": 72.3522,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Malam Jabba Road",
+            "address": "Malam Jabba Road, Swat",
+            "lat": 34.7897,
+            "lng": 72.3482,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Fizagat Park Food Point",
+            "address": "Fizagat Park, Swat",
+            "lat": 34.7737,
+            "lng": 72.3622,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Swat Medical Center",
+            "address": "Main Road, Swat",
+            "lat": 34.7747,
+            "lng": 72.3587,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Swat Fuel Station",
+            "address": "Main Road, Swat",
+            "lat": 34.7697,
+            "lng": 72.3632,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Malam Jabba Road Market",
+            "address": "Malam Jabba Road, Swat",
+            "lat": 34.7707,
+            "lng": 72.3582,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Swat",
+            "address": "Main Bazaar, Swat",
+            "lat": 34.7732,
+            "lng": 72.3577,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Swat",
+            "address": "Main Road, Swat",
+            "lat": 34.7687,
+            "lng": 72.3617,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Swat View Hotel",
+            "address": "Near Main Bazaar, Swat",
+            "lat": 34.7745,
+            "lng": 72.3609,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Swat",
+            "address": "Transport Adda, Swat",
+            "lat": 34.7692,
+            "lng": 72.3592,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Swat Bank ATM",
+            "address": "Main Bazaar, Swat",
+            "lat": 34.7725,
+            "lng": 72.362,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

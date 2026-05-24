@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Tank Bazaar",
+            "address": "Tank Bazaar, Tank",
+            "lat": 32.2167,
+            "lng": 70.3833,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "D.I. Khan Road",
+            "address": "D.I. Khan Road, Tank",
+            "lat": 32.2227,
+            "lng": 70.3793,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Waziristan Road",
+            "address": "Waziristan Road, Tank",
+            "lat": 32.2287,
+            "lng": 70.3753,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "District Courts Area",
+            "address": "District Courts Area, Tank",
+            "lat": 32.2347,
+            "lng": 70.3713,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Tank Bazaar Food Point",
+            "address": "Tank Bazaar, Tank",
+            "lat": 32.2187,
+            "lng": 70.3853,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Tank Medical Center",
+            "address": "Main Road, Tank",
+            "lat": 32.2197,
+            "lng": 70.3818,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Tank Fuel Station",
+            "address": "Main Road, Tank",
+            "lat": 32.2147,
+            "lng": 70.3863,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "District Courts Area Market",
+            "address": "District Courts Area, Tank",
+            "lat": 32.2157,
+            "lng": 70.3813,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Tank",
+            "address": "Main Bazaar, Tank",
+            "lat": 32.2182,
+            "lng": 70.3808,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Tank",
+            "address": "Main Road, Tank",
+            "lat": 32.2137,
+            "lng": 70.3848,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Tank View Hotel",
+            "address": "Near Main Bazaar, Tank",
+            "lat": 32.2195,
+            "lng": 70.384,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Tank",
+            "address": "Transport Adda, Tank",
+            "lat": 32.2142,
+            "lng": 70.3823,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Tank Bank ATM",
+            "address": "Main Bazaar, Tank",
+            "lat": 32.2175,
+            "lng": 70.3851,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Booni Bazaar",
+            "address": "Booni Bazaar, Upper Chitral",
+            "lat": 36.2136,
+            "lng": 72.1792,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Qaqlasht Meadows",
+            "address": "Qaqlasht Meadows, Upper Chitral",
+            "lat": 36.2196,
+            "lng": 72.1752,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Mastuj Road",
+            "address": "Mastuj Road, Upper Chitral",
+            "lat": 36.2256,
+            "lng": 72.1712,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Torkhow Road",
+            "address": "Torkhow Road, Upper Chitral",
+            "lat": 36.2316,
+            "lng": 72.1672,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Booni Bazaar Food Point",
+            "address": "Booni Bazaar, Upper Chitral",
+            "lat": 36.2156,
+            "lng": 72.1812,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Upper Chitral Medical Center",
+            "address": "Main Road, Upper Chitral",
+            "lat": 36.2166,
+            "lng": 72.1777,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Upper Chitral Fuel Station",
+            "address": "Main Road, Upper Chitral",
+            "lat": 36.2116,
+            "lng": 72.1822,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Torkhow Road Market",
+            "address": "Torkhow Road, Upper Chitral",
+            "lat": 36.2126,
+            "lng": 72.1772,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Upper Chitral",
+            "address": "Main Bazaar, Upper Chitral",
+            "lat": 36.2151,
+            "lng": 72.1767,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Upper Chitral",
+            "address": "Main Road, Upper Chitral",
+            "lat": 36.2106,
+            "lng": 72.1807,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Upper Chitral View Hotel",
+            "address": "Near Main Bazaar, Upper Chitral",
+            "lat": 36.2164,
+            "lng": 72.1799,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Upper Chitral",
+            "address": "Transport Adda, Upper Chitral",
+            "lat": 36.2111,
+            "lng": 72.1782,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Upper Chitral Bank ATM",
+            "address": "Main Bazaar, Upper Chitral",
+            "lat": 36.2144,
+            "lng": 72.181,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

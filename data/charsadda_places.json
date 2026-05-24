@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Rajjar Bazaar",
+            "address": "Rajjar Bazaar, Charsadda",
+            "lat": 34.1482,
+            "lng": 71.7406,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Tangi Bazaar",
+            "address": "Tangi Bazaar, Charsadda",
+            "lat": 34.1542,
+            "lng": 71.7366,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Khyali River Area",
+            "address": "Khyali River Area, Charsadda",
+            "lat": 34.1602,
+            "lng": 71.7326,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Charsadda Museum Area",
+            "address": "Charsadda Museum Area, Charsadda",
+            "lat": 34.1662,
+            "lng": 71.7286,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Rajjar Bazaar Food Point",
+            "address": "Rajjar Bazaar, Charsadda",
+            "lat": 34.1502,
+            "lng": 71.7426,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Charsadda Medical Center",
+            "address": "Main Road, Charsadda",
+            "lat": 34.1512,
+            "lng": 71.7391,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Charsadda Fuel Station",
+            "address": "Main Road, Charsadda",
+            "lat": 34.1462,
+            "lng": 71.7436,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Charsadda Museum Area Market",
+            "address": "Charsadda Museum Area, Charsadda",
+            "lat": 34.1472,
+            "lng": 71.7386,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Charsadda",
+            "address": "Main Bazaar, Charsadda",
+            "lat": 34.1497,
+            "lng": 71.7381,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Charsadda",
+            "address": "Main Road, Charsadda",
+            "lat": 34.1452,
+            "lng": 71.7421,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Charsadda View Hotel",
+            "address": "Near Main Bazaar, Charsadda",
+            "lat": 34.151,
+            "lng": 71.7413,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Charsadda",
+            "address": "Transport Adda, Charsadda",
+            "lat": 34.1457,
+            "lng": 71.7396,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Charsadda Bank ATM",
+            "address": "Main Bazaar, Charsadda",
+            "lat": 34.149,
+            "lng": 71.7424,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

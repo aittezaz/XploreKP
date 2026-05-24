@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Chitral Fort",
+            "address": "Chitral Fort, Lower Chitral",
+            "lat": 35.8518,
+            "lng": 71.7864,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Shahi Masjid Chitral",
+            "address": "Shahi Masjid Chitral, Lower Chitral",
+            "lat": 35.8578,
+            "lng": 71.7824,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Chitral Bazaar",
+            "address": "Chitral Bazaar, Lower Chitral",
+            "lat": 35.8638,
+            "lng": 71.7784,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Birmoghlasht Road",
+            "address": "Birmoghlasht Road, Lower Chitral",
+            "lat": 35.8698,
+            "lng": 71.7744,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Chitral Fort Food Point",
+            "address": "Chitral Fort, Lower Chitral",
+            "lat": 35.8538,
+            "lng": 71.7884,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Lower Chitral Medical Center",
+            "address": "Main Road, Lower Chitral",
+            "lat": 35.8548,
+            "lng": 71.7849,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Lower Chitral Fuel Station",
+            "address": "Main Road, Lower Chitral",
+            "lat": 35.8498,
+            "lng": 71.7894,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Birmoghlasht Road Market",
+            "address": "Birmoghlasht Road, Lower Chitral",
+            "lat": 35.8508,
+            "lng": 71.7844,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Lower Chitral",
+            "address": "Main Bazaar, Lower Chitral",
+            "lat": 35.8533,
+            "lng": 71.7839,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Lower Chitral",
+            "address": "Main Road, Lower Chitral",
+            "lat": 35.8488,
+            "lng": 71.7879,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Lower Chitral View Hotel",
+            "address": "Near Main Bazaar, Lower Chitral",
+            "lat": 35.8546,
+            "lng": 71.7871,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Lower Chitral",
+            "address": "Transport Adda, Lower Chitral",
+            "lat": 35.8493,
+            "lng": 71.7854,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Lower Chitral Bank ATM",
+            "address": "Main Bazaar, Lower Chitral",
+            "lat": 35.8526,
+            "lng": 71.7882,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

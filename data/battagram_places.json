@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Battagram Bazaar",
+            "address": "Battagram Bazaar, Battagram",
+            "lat": 34.6772,
+            "lng": 73.0233,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Karakoram Highway View",
+            "address": "Karakoram Highway View, Battagram",
+            "lat": 34.6832,
+            "lng": 73.0193,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Allai Road",
+            "address": "Allai Road, Battagram",
+            "lat": 34.6892,
+            "lng": 73.0153,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "District Courts Area",
+            "address": "District Courts Area, Battagram",
+            "lat": 34.6952,
+            "lng": 73.0113,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Battagram Bazaar Food Point",
+            "address": "Battagram Bazaar, Battagram",
+            "lat": 34.6792,
+            "lng": 73.0253,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Battagram Medical Center",
+            "address": "Main Road, Battagram",
+            "lat": 34.6802,
+            "lng": 73.0218,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Battagram Fuel Station",
+            "address": "Main Road, Battagram",
+            "lat": 34.6752,
+            "lng": 73.0263,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "District Courts Area Market",
+            "address": "District Courts Area, Battagram",
+            "lat": 34.6762,
+            "lng": 73.0213,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Battagram",
+            "address": "Main Bazaar, Battagram",
+            "lat": 34.6787,
+            "lng": 73.0208,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Battagram",
+            "address": "Main Road, Battagram",
+            "lat": 34.6742,
+            "lng": 73.0248,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Battagram View Hotel",
+            "address": "Near Main Bazaar, Battagram",
+            "lat": 34.68,
+            "lng": 73.024,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Battagram",
+            "address": "Transport Adda, Battagram",
+            "lat": 34.6747,
+            "lng": 73.0223,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Battagram Bank ATM",
+            "address": "Main Bazaar, Battagram",
+            "lat": 34.678,
+            "lng": 73.0251,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "D.I. Khan Bazaar",
+            "address": "D.I. Khan Bazaar, Dera Ismail Khan",
+            "lat": 31.8327,
+            "lng": 70.9024,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Indus River View",
+            "address": "Indus River View, Dera Ismail Khan",
+            "lat": 31.8387,
+            "lng": 70.8984,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Tank Adda",
+            "address": "Tank Adda, Dera Ismail Khan",
+            "lat": 31.8447,
+            "lng": 70.8944,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Circular Road",
+            "address": "Circular Road, Dera Ismail Khan",
+            "lat": 31.8507,
+            "lng": 70.8904,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "D.I. Khan Bazaar Food Point",
+            "address": "D.I. Khan Bazaar, Dera Ismail Khan",
+            "lat": 31.8347,
+            "lng": 70.9044,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Dera Ismail Khan Medical Center",
+            "address": "Main Road, Dera Ismail Khan",
+            "lat": 31.8357,
+            "lng": 70.9009,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Dera Ismail Khan Fuel Station",
+            "address": "Main Road, Dera Ismail Khan",
+            "lat": 31.8307,
+            "lng": 70.9054,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Circular Road Market",
+            "address": "Circular Road, Dera Ismail Khan",
+            "lat": 31.8317,
+            "lng": 70.9004,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Dera Ismail Khan",
+            "address": "Main Bazaar, Dera Ismail Khan",
+            "lat": 31.8342,
+            "lng": 70.8999,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Dera Ismail Khan",
+            "address": "Main Road, Dera Ismail Khan",
+            "lat": 31.8297,
+            "lng": 70.9039,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Dera Ismail Khan View Hotel",
+            "address": "Near Main Bazaar, Dera Ismail Khan",
+            "lat": 31.8355,
+            "lng": 70.9031,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Dera Ismail Khan",
+            "address": "Transport Adda, Dera Ismail Khan",
+            "lat": 31.8302,
+            "lng": 70.9014,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Dera Ismail Khan Bank ATM",
+            "address": "Main Bazaar, Dera Ismail Khan",
+            "lat": 31.8335,
+            "lng": 70.9042,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

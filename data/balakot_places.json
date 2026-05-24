@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Kunhar River View",
+            "address": "Kunhar River View, Balakot",
+            "lat": 34.5473,
+            "lng": 73.3516,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Balakot Bazaar",
+            "address": "Balakot Bazaar, Balakot",
+            "lat": 34.5533,
+            "lng": 73.3476,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Kaghan Road",
+            "address": "Kaghan Road, Balakot",
+            "lat": 34.5593,
+            "lng": 73.3436,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Garhi Habibullah Road",
+            "address": "Garhi Habibullah Road, Balakot",
+            "lat": 34.5653,
+            "lng": 73.3396,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Kunhar River View Food Point",
+            "address": "Kunhar River View, Balakot",
+            "lat": 34.5493,
+            "lng": 73.3536,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Balakot Medical Center",
+            "address": "Main Road, Balakot",
+            "lat": 34.5503,
+            "lng": 73.3501,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Balakot Fuel Station",
+            "address": "Main Road, Balakot",
+            "lat": 34.5453,
+            "lng": 73.3546,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Garhi Habibullah Road Market",
+            "address": "Garhi Habibullah Road, Balakot",
+            "lat": 34.5463,
+            "lng": 73.3496,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Balakot",
+            "address": "Main Bazaar, Balakot",
+            "lat": 34.5488,
+            "lng": 73.3491,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Balakot",
+            "address": "Main Road, Balakot",
+            "lat": 34.5443,
+            "lng": 73.3531,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Balakot View Hotel",
+            "address": "Near Main Bazaar, Balakot",
+            "lat": 34.5501,
+            "lng": 73.3523,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Balakot",
+            "address": "Transport Adda, Balakot",
+            "lat": 34.5448,
+            "lng": 73.3506,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Balakot Bank ATM",
+            "address": "Main Bazaar, Balakot",
+            "lat": 34.5481,
+            "lng": 73.3534,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

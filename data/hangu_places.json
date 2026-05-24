@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Hangu Bazaar",
+            "address": "Hangu Bazaar, Hangu",
+            "lat": 33.5317,
+            "lng": 71.0595,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Doaba Road",
+            "address": "Doaba Road, Hangu",
+            "lat": 33.5377,
+            "lng": 71.0555,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Thall Road",
+            "address": "Thall Road, Hangu",
+            "lat": 33.5437,
+            "lng": 71.0515,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "District Courts Area",
+            "address": "District Courts Area, Hangu",
+            "lat": 33.5497,
+            "lng": 71.0475,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Hangu Bazaar Food Point",
+            "address": "Hangu Bazaar, Hangu",
+            "lat": 33.5337,
+            "lng": 71.0615,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Hangu Medical Center",
+            "address": "Main Road, Hangu",
+            "lat": 33.5347,
+            "lng": 71.058,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Hangu Fuel Station",
+            "address": "Main Road, Hangu",
+            "lat": 33.5297,
+            "lng": 71.0625,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "District Courts Area Market",
+            "address": "District Courts Area, Hangu",
+            "lat": 33.5307,
+            "lng": 71.0575,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Hangu",
+            "address": "Main Bazaar, Hangu",
+            "lat": 33.5332,
+            "lng": 71.057,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Hangu",
+            "address": "Main Road, Hangu",
+            "lat": 33.5287,
+            "lng": 71.061,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Hangu View Hotel",
+            "address": "Near Main Bazaar, Hangu",
+            "lat": 33.5345,
+            "lng": 71.0602,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Hangu",
+            "address": "Transport Adda, Hangu",
+            "lat": 33.5292,
+            "lng": 71.0585,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Hangu Bank ATM",
+            "address": "Main Bazaar, Hangu",
+            "lat": 33.5325,
+            "lng": 71.0613,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

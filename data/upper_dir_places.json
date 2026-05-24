@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Dir Bazaar",
+            "address": "Dir Bazaar, Upper Dir",
+            "lat": 35.2074,
+            "lng": 71.8756,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Kumrat Valley Road",
+            "address": "Kumrat Valley Road, Upper Dir",
+            "lat": 35.2134,
+            "lng": 71.8716,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Sheringal",
+            "address": "Sheringal, Upper Dir",
+            "lat": 35.2194,
+            "lng": 71.8676,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Lowari Tunnel Road",
+            "address": "Lowari Tunnel Road, Upper Dir",
+            "lat": 35.2254,
+            "lng": 71.8636,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Dir Bazaar Food Point",
+            "address": "Dir Bazaar, Upper Dir",
+            "lat": 35.2094,
+            "lng": 71.8776,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Upper Dir Medical Center",
+            "address": "Main Road, Upper Dir",
+            "lat": 35.2104,
+            "lng": 71.8741,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Upper Dir Fuel Station",
+            "address": "Main Road, Upper Dir",
+            "lat": 35.2054,
+            "lng": 71.8786,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Lowari Tunnel Road Market",
+            "address": "Lowari Tunnel Road, Upper Dir",
+            "lat": 35.2064,
+            "lng": 71.8736,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Upper Dir",
+            "address": "Main Bazaar, Upper Dir",
+            "lat": 35.2089,
+            "lng": 71.8731,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Upper Dir",
+            "address": "Main Road, Upper Dir",
+            "lat": 35.2044,
+            "lng": 71.8771,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Upper Dir View Hotel",
+            "address": "Near Main Bazaar, Upper Dir",
+            "lat": 35.2102,
+            "lng": 71.8763,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Upper Dir",
+            "address": "Transport Adda, Upper Dir",
+            "lat": 35.2049,
+            "lng": 71.8746,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Upper Dir Bank ATM",
+            "address": "Main Bazaar, Upper Dir",
+            "lat": 35.2082,
+            "lng": 71.8774,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

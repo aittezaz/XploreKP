@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Pir Baba",
+            "address": "Pir Baba, Buner",
+            "lat": 34.3943,
+            "lng": 72.6151,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Daggar Bazaar",
+            "address": "Daggar Bazaar, Buner",
+            "lat": 34.4003,
+            "lng": 72.6111,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Elum Mountain View",
+            "address": "Elum Mountain View, Buner",
+            "lat": 34.4063,
+            "lng": 72.6071,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Jowar Road",
+            "address": "Jowar Road, Buner",
+            "lat": 34.4123,
+            "lng": 72.6031,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Pir Baba Food Point",
+            "address": "Pir Baba, Buner",
+            "lat": 34.3963,
+            "lng": 72.6171,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Buner Medical Center",
+            "address": "Main Road, Buner",
+            "lat": 34.3973,
+            "lng": 72.6136,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Buner Fuel Station",
+            "address": "Main Road, Buner",
+            "lat": 34.3923,
+            "lng": 72.6181,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Jowar Road Market",
+            "address": "Jowar Road, Buner",
+            "lat": 34.3933,
+            "lng": 72.6131,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Buner",
+            "address": "Main Bazaar, Buner",
+            "lat": 34.3958,
+            "lng": 72.6126,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Buner",
+            "address": "Main Road, Buner",
+            "lat": 34.3913,
+            "lng": 72.6166,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Buner View Hotel",
+            "address": "Near Main Bazaar, Buner",
+            "lat": 34.3971,
+            "lng": 72.6158,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Buner",
+            "address": "Transport Adda, Buner",
+            "lat": 34.3918,
+            "lng": 72.6141,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Buner Bank ATM",
+            "address": "Main Bazaar, Buner",
+            "lat": 34.3951,
+            "lng": 72.6169,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}

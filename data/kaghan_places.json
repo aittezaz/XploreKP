@@ -1,0 +1,152 @@
+{
+    "tourist-spots": [
+        {
+            "name": "Kaghan Bazaar",
+            "address": "Kaghan Bazaar, Kaghan",
+            "lat": 34.7796,
+            "lng": 73.5207,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Kunhar River View",
+            "address": "Kunhar River View, Kaghan",
+            "lat": 34.7856,
+            "lng": 73.5167,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Shogran Road",
+            "address": "Shogran Road, Kaghan",
+            "lat": 34.7916,
+            "lng": 73.5127,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        },
+        {
+            "name": "Naran Road",
+            "address": "Naran Road, Kaghan",
+            "lat": 34.7976,
+            "lng": 73.5087,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Kaghan Bazaar Food Point",
+            "address": "Kaghan Bazaar, Kaghan",
+            "lat": 34.7816,
+            "lng": 73.5227,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hospitals": [
+        {
+            "name": "Kaghan Medical Center",
+            "address": "Main Road, Kaghan",
+            "lat": 34.7826,
+            "lng": 73.5192,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "petrol-pumps": [
+        {
+            "name": "Kaghan Fuel Station",
+            "address": "Main Road, Kaghan",
+            "lat": 34.7776,
+            "lng": 73.5237,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "shopping-malls": [
+        {
+            "name": "Naran Road Market",
+            "address": "Naran Road, Kaghan",
+            "lat": 34.7786,
+            "lng": 73.5187,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "pharmacies": [
+        {
+            "name": "Care Pharmacy Kaghan",
+            "address": "Main Bazaar, Kaghan",
+            "lat": 34.7811,
+            "lng": 73.5182,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "wedding-halls": [
+        {
+            "name": "Royal Marquee Kaghan",
+            "address": "Main Road, Kaghan",
+            "lat": 34.7766,
+            "lng": 73.5222,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "hotels": [
+        {
+            "name": "Kaghan View Hotel",
+            "address": "Near Main Bazaar, Kaghan",
+            "lat": 34.7824,
+            "lng": 73.5214,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Auto Care Workshop Kaghan",
+            "address": "Transport Adda, Kaghan",
+            "lat": 34.7771,
+            "lng": 73.5197,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ],
+    "banks-and-atms": [
+        {
+            "name": "Kaghan Bank ATM",
+            "address": "Main Bazaar, Kaghan",
+            "lat": 34.7804,
+            "lng": 73.5225,
+            "phone": "",
+            "website": "",
+            "opening_hours": "",
+            "source": "Starter data"
+        }
+    ]
+}
