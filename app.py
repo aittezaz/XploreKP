@@ -5,6 +5,15 @@ from flask import Flask, redirect, render_template, request, url_for
 
 app = Flask(__name__)
 DATA_DIR = Path(__file__).parent / "data"
+GUIDES_FILE = DATA_DIR / "guides.json"
+
+OWNER_GUIDE = {
+    "name": "XploreKP Local Guide",
+    "phone": "+92 300 0000000",
+    "area": "Available across KP",
+    "note": "Main contact",
+    "source": "Owner",
+}
 
 CATEGORIES = [
     {"name": "Restaurants", "slug": "restaurants"},
@@ -408,6 +417,26 @@ def city_file(city_slug):
     return DATA_DIR / CITIES[city_slug]["file"]
 
 
+def load_guides():
+    if not GUIDES_FILE.exists():
+        return {}
+
+    with GUIDES_FILE.open("r", encoding="utf-8") as file:
+        return json.load(file)
+
+
+def save_guides(guides):
+    DATA_DIR.mkdir(exist_ok=True)
+
+    with GUIDES_FILE.open("w", encoding="utf-8") as file:
+        json.dump(guides, file, indent=4, ensure_ascii=False)
+
+
+def city_guides(city_slug):
+    guides = load_guides().get(city_slug, [])
+    return [OWNER_GUIDE, *guides]
+
+
 def load_places(city_slug):
     places_file = city_file(city_slug)
 
@@ -477,7 +506,62 @@ def city_home(city_slug):
         "mardan.html",
         city=CITIES[city_slug],
         city_slug=city_slug,
-        categories=categories
+        categories=categories,
+        guides=city_guides(city_slug),
+        guide_error="",
+        guide_success=""
+    )
+
+
+@app.route("/<city_slug>/guides/add", methods=["POST"])
+def add_guide(city_slug):
+    city_slug = normalize_city(city_slug) or city_slug
+
+    if city_slug not in CITIES:
+        return render_template("coming.html", city=city_slug), 404
+
+    name = request.form.get("name", "").strip()
+    phone = request.form.get("phone", "").strip()
+    area = request.form.get("area", "").strip()
+    note = request.form.get("note", "").strip()
+    guide_error = ""
+    guide_success = ""
+
+    if name and phone:
+        guides = load_guides()
+        guides.setdefault(city_slug, []).append({
+            "name": name,
+            "phone": phone,
+            "area": area or CITIES[city_slug]["name"],
+            "note": note,
+            "source": "Registered guide",
+        })
+
+        try:
+            save_guides(guides)
+        except OSError:
+            guide_error = (
+                "This live server cannot save guide registrations permanently. "
+                "For permanent online registrations, connect a database later."
+            )
+        else:
+            guide_success = "Guide registered successfully."
+    else:
+        guide_error = "Please enter at least your name and phone number."
+
+    places = load_places(city_slug)
+    categories = [
+        {**category, "count": len(places.get(category["slug"], []))}
+        for category in CATEGORIES
+    ]
+    return render_template(
+        "mardan.html",
+        city=CITIES[city_slug],
+        city_slug=city_slug,
+        categories=categories,
+        guides=city_guides(city_slug),
+        guide_error=guide_error,
+        guide_success=guide_success
     )
 
 

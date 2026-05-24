@@ -83,33 +83,10 @@
             transform: translateY(-2px);
         }
 
-        .city-links {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 8px;
-            margin-top: 20px;
-        }
-
-        .city-link {
-            display: inline-flex;
-            align-items: center;
-            min-height: 34px;
-            padding: 7px 11px;
-            border-radius: 8px;
-            background: rgba(255, 255, 255, 0.12);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            color: white;
-            font-size: 0.88rem;
-            font-weight: 700;
-            text-decoration: none;
-            transition: background 0.2s ease, transform 0.2s ease;
-        }
-
-        .city-link:hover {
-            background: rgba(31, 138, 112, 0.5);
-            color: white;
-            transform: translateY(-1px);
+        .hint {
+            margin: 14px 0 0;
+            color: rgba(255, 255, 255, 0.72);
+            font-size: 0.92rem;
         }
     </style>
 </head>
@@ -122,15 +99,16 @@
             <p>Search a city and discover useful places nearby.</p>
 
             <form action="/search">
-                <input type="text" name="city" class="form-control" placeholder="Enter city name">
+                <input type="text" name="city" class="form-control" placeholder="Enter city name" list="citySuggestions" autocomplete="off">
+                <datalist id="citySuggestions">
+                    {% for slug, city in cities.items() %}
+                        <option value="{{ city.name }}"></option>
+                    {% endfor %}
+                </datalist>
                 <button class="btn btn-success search-button mt-3 w-100">Search</button>
             </form>
 
-            <nav class="city-links" aria-label="Popular KP places">
-                {% for slug, city in cities.items() %}
-                    <a class="city-link" href="/{{ slug }}">{{ city.name }}</a>
-                {% endfor %}
-            </nav>
+            <p class="hint">Start typing to see city suggestions.</p>
         </section>
     </main>
 </body>

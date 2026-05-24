@@ -168,6 +168,99 @@
             font-size: 1.3rem;
         }
 
+        .section-title {
+            margin: 34px 0 16px;
+            font-size: 1.7rem;
+        }
+
+        .guides-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+            gap: 16px;
+            align-items: start;
+        }
+
+        .guide-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 16px;
+        }
+
+        .guide-card,
+        .guide-form {
+            border-radius: 8px;
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            box-shadow: 0 18px 42px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            backdrop-filter: blur(12px);
+        }
+
+        .guide-card h3,
+        .guide-form h3 {
+            margin: 0 0 10px;
+            font-size: 1.2rem;
+        }
+
+        .guide-card p {
+            margin: 0 0 8px;
+            color: rgba(255, 255, 255, 0.78);
+            line-height: 1.5;
+        }
+
+        .call-guide {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 40px;
+            margin-top: 8px;
+            padding: 9px 13px;
+            border-radius: 8px;
+            color: white;
+            background: var(--accent);
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .guide-form label {
+            display: block;
+            margin: 12px 0 6px;
+            font-weight: 800;
+        }
+
+        .guide-form input {
+            width: 100%;
+            min-height: 44px;
+            border: 0;
+            border-radius: 8px;
+            padding: 11px;
+            font-size: 1rem;
+        }
+
+        .guide-form button {
+            width: 100%;
+            min-height: 46px;
+            margin-top: 16px;
+            border: 0;
+            border-radius: 8px;
+            color: white;
+            background: var(--accent);
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .alert {
+            margin-bottom: 12px;
+            padding: 11px 12px;
+            border-radius: 8px;
+            background: rgba(176, 55, 55, 0.72);
+            border: 1px solid rgba(255, 255, 255, 0.24);
+        }
+
+        .success {
+            background: rgba(35, 161, 127, 0.72);
+        }
+
         @media (max-width: 640px) {
             .topbar {
                 align-items: stretch;
@@ -182,6 +275,10 @@
             .add-link {
                 flex: 1;
                 text-align: center;
+            }
+
+            .guides-layout {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -212,6 +309,46 @@
                     <span class="category-arrow" aria-hidden="true">&gt;</span>
                 </a>
             {% endfor %}
+        </section>
+
+        <h2 class="section-title">Local Guides</h2>
+        <section class="guides-layout" aria-label="{{ city.name }} local guides">
+            <div class="guide-list">
+                {% for guide in guides %}
+                    <article class="guide-card">
+                        <h3>{{ guide.name }}</h3>
+                        <p>{{ guide.area }}</p>
+                        {% if guide.note %}
+                            <p>{{ guide.note }}</p>
+                        {% endif %}
+                        <a class="call-guide" href="tel:{{ guide.phone }}">{{ guide.phone }}</a>
+                    </article>
+                {% endfor %}
+            </div>
+
+            <form class="guide-form" method="POST" action="/{{ city_slug }}/guides/add">
+                <h3>Register as Guide</h3>
+                {% if guide_error %}
+                    <div class="alert">{{ guide_error }}</div>
+                {% endif %}
+                {% if guide_success %}
+                    <div class="alert success">{{ guide_success }}</div>
+                {% endif %}
+
+                <label for="guideName">Name</label>
+                <input id="guideName" name="name" type="text" placeholder="Your name" required>
+
+                <label for="guidePhone">Phone Number</label>
+                <input id="guidePhone" name="phone" type="tel" placeholder="+92 300 0000000" required>
+
+                <label for="guideArea">Area</label>
+                <input id="guideArea" name="area" type="text" placeholder="Kalam, Mingora, Naran">
+
+                <label for="guideNote">Experience</label>
+                <input id="guideNote" name="note" type="text" placeholder="Tour guide, driver, hotel booking">
+
+                <button type="submit">Add My Number</button>
+            </form>
         </section>
     </main>
 </body>
