@@ -208,18 +208,29 @@
             line-height: 1.5;
         }
 
-        .call-guide {
+        .guide-actions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 12px;
+        }
+
+        .call-guide,
+        .whatsapp-guide {
             display: inline-flex;
             align-items: center;
             justify-content: center;
             min-height: 40px;
-            margin-top: 8px;
             padding: 9px 13px;
             border-radius: 8px;
             color: white;
             background: var(--accent);
             font-weight: 800;
             text-decoration: none;
+        }
+
+        .whatsapp-guide {
+            background: #1b7f5f;
         }
 
         .guide-form label {
@@ -317,11 +328,17 @@
                 {% for guide in guides %}
                     <article class="guide-card">
                         <h3>{{ guide.name }}</h3>
-                        <p>{{ guide.area }}</p>
+                        <p>Place: {{ guide.area }}</p>
                         {% if guide.note %}
                             <p>{{ guide.note }}</p>
                         {% endif %}
-                        <a class="call-guide" href="tel:{{ guide.phone }}">{{ guide.phone }}</a>
+                        <div class="guide-actions">
+                            <a class="call-guide" href="{{ guide.call_url }}">Call</a>
+                            {% if guide.whatsapp_url %}
+                                <a class="whatsapp-guide" target="_blank" rel="noopener" href="{{ guide.whatsapp_url }}">WhatsApp</a>
+                            {% endif %}
+                        </div>
+                        <p>{{ guide.phone }}</p>
                     </article>
                 {% endfor %}
             </div>

@@ -69,6 +69,44 @@
             border-radius: 8px;
         }
 
+        .search-form {
+            position: relative;
+        }
+
+        .suggestions {
+            display: none;
+            position: absolute;
+            z-index: 5;
+            top: 54px;
+            left: 0;
+            right: 0;
+            max-height: 210px;
+            overflow-y: auto;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.96);
+            box-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
+            text-align: left;
+        }
+
+        .suggestion {
+            width: 100%;
+            min-height: 42px;
+            border: 0;
+            border-bottom: 1px solid rgba(8, 20, 30, 0.1);
+            padding: 10px 12px;
+            background: transparent;
+            color: #08141e;
+            font-weight: 700;
+            text-align: left;
+            cursor: pointer;
+        }
+
+        .suggestion:hover,
+        .suggestion:focus {
+            background: rgba(31, 138, 112, 0.14);
+            outline: 0;
+        }
+
         .search-button {
             min-height: 48px;
             border: 0;
@@ -98,18 +136,72 @@
             <h1>Explore KP</h1>
             <p>Search a city and discover useful places nearby.</p>
 
-            <form action="/search">
-                <input type="text" name="city" class="form-control" placeholder="Enter city name" list="citySuggestions" autocomplete="off">
-                <datalist id="citySuggestions">
-                    {% for slug, city in cities.items() %}
-                        <option value="{{ city.name }}"></option>
-                    {% endfor %}
-                </datalist>
+            <form class="search-form" action="/search">
+                <input id="cityInput" type="text" name="city" class="form-control" placeholder="Enter city name" autocomplete="off">
+                <div class="suggestions" id="citySuggestions" aria-label="City suggestions"></div>
                 <button class="btn btn-success search-button mt-3 w-100">Search</button>
             </form>
 
             <p class="hint">Start typing to see city suggestions.</p>
         </section>
     </main>
+
+    <script>
+        const cityInput = document.querySelector("#cityInput");
+        const citySuggestions = document.querySelector("#citySuggestions");
+        const cities = [
+            {% for slug, city in cities.items() %}
+                { name: "{{ city.name }}", slug: "{{ slug }}" },
+            {% endfor %}
+        ];
+
+        function hideSuggestions() {
+            citySuggestions.innerHTML = "";
+            citySuggestions.style.display = "none";
+        }
+
+        function showSuggestions() {
+            const query = cityInput.value.trim().toLowerCase();
+            hideSuggestions();
+
+            if (!query) {
+                return;
+            }
+
+            const matches = cities
+                .filter((city) => city.name.toLowerCase().startsWith(query))
+                .slice(0, 6);
+
+            if (!matches.length) {
+                return;
+            }
+
+            matches.forEach((city) => {
+                const button = document.createElement("button");
+                button.type = "button";
+                button.className = "suggestion";
+                button.textContent = city.name;
+                button.addEventListener("click", () => {
+                    cityInput.value = city.name;
+                    hideSuggestions();
+                });
+                citySuggestions.appendChild(button);
+            });
+
+            citySuggestions.style.display = "block";
+        }
+
+        cityInput.addEventListener("input", showSuggestions);
+        cityInput.addEventListener("focus", () => {
+            if (cityInput.value.trim()) {
+                showSuggestions();
+            }
+        });
+        document.addEventListener("click", (event) => {
+            if (!event.target.closest(".search-form")) {
+                hideSuggestions();
+            }
+        });
+    </script>
 </body>
 </html>

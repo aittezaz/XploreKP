@@ -8,7 +8,7 @@ DATA_DIR = Path(__file__).parent / "data"
 GUIDES_FILE = DATA_DIR / "guides.json"
 
 OWNER_GUIDE = {
-    "name": "XploreKP Local Guide",
+    "name": "XploreKP",
     "phone": "+92 300 0000000",
     "area": "Available across KP",
     "note": "Main contact",
@@ -432,9 +432,29 @@ def save_guides(guides):
         json.dump(guides, file, indent=4, ensure_ascii=False)
 
 
+def phone_digits(phone):
+    return "".join(character for character in phone if character.isdigit())
+
+
+def guide_with_links(guide):
+    phone = guide.get("phone", "")
+    digits = phone_digits(phone)
+    guide = {**guide}
+    guide["call_url"] = f"tel:{phone}"
+    guide["whatsapp_url"] = f"https://wa.me/{digits}" if digits else ""
+    return guide
+
+
 def city_guides(city_slug):
+    city_name = CITIES[city_slug]["name"]
+    owner_guide = {
+        **OWNER_GUIDE,
+        "name": f"{city_name} Local Guide",
+        "area": city_name,
+        "note": f"Main local guide contact for {city_name}",
+    }
     guides = load_guides().get(city_slug, [])
-    return [OWNER_GUIDE, *guides]
+    return [guide_with_links(owner_guide), *(guide_with_links(guide) for guide in guides)]
 
 
 def load_places(city_slug):
