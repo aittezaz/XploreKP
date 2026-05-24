@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from urllib.parse import quote
 
 from flask import Flask, redirect, render_template, request, url_for
 
@@ -9,7 +10,7 @@ GUIDES_FILE = DATA_DIR / "guides.json"
 
 OWNER_GUIDE = {
     "name": "XploreKP",
-    "phone": "+92 300 0000000",
+    "phone": "+923419098201",
     "area": "Available across KP",
     "note": "Main contact",
     "source": "Owner",
@@ -436,12 +437,13 @@ def phone_digits(phone):
     return "".join(character for character in phone if character.isdigit())
 
 
-def guide_with_links(guide):
+def guide_with_links(guide, city_name):
     phone = guide.get("phone", "")
     digits = phone_digits(phone)
+    message = quote(f"I came from XploreKP guidance of {city_name} and need your help.")
     guide = {**guide}
     guide["call_url"] = f"tel:{phone}"
-    guide["whatsapp_url"] = f"https://wa.me/{digits}" if digits else ""
+    guide["whatsapp_url"] = f"https://wa.me/{digits}?text={message}" if digits else ""
     return guide
 
 
@@ -454,7 +456,10 @@ def city_guides(city_slug):
         "note": f"Main local guide contact for {city_name}",
     }
     guides = load_guides().get(city_slug, [])
-    return [guide_with_links(owner_guide), *(guide_with_links(guide) for guide in guides)]
+    return [
+        guide_with_links(owner_guide, city_name),
+        *(guide_with_links(guide, city_name) for guide in guides),
+    ]
 
 
 def load_places(city_slug):
